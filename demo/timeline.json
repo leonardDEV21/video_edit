@@ -1,0 +1,37 @@
+{
+  "fps": 30,
+  "durationMs": 10000,
+  "captions": [
+    { "text": "Welcome", "startMs": 600, "endMs": 900, "emphasis": false },
+    { "text": "to", "startMs": 900, "endMs": 1020, "emphasis": false },
+    { "text": "Crystal", "startMs": 1020, "endMs": 1400, "emphasis": true },
+    { "text": "Beach", "startMs": 1400, "endMs": 1800, "emphasis": true },
+    { "text": "Just", "startMs": 2300, "endMs": 2480, "emphasis": false },
+    { "text": "look", "startMs": 2480, "endMs": 2700, "emphasis": false },
+    { "text": "at", "startMs": 2700, "endMs": 2820, "emphasis": false },
+    { "text": "this", "startMs": 2820, "endMs": 3000, "emphasis": false },
+    { "text": "water", "startMs": 3000, "endMs": 3500, "emphasis": true },
+    { "text": "It's", "startMs": 4000, "endMs": 4180, "emphasis": false },
+    { "text": "so", "startMs": 4180, "endMs": 4400, "emphasis": false },
+    { "text": "clear", "startMs": 4400, "endMs": 4900, "emphasis": true },
+    { "text": "honestly", "startMs": 5300, "endMs": 5800, "emphasis": false },
+    { "text": "paradise", "startMs": 5800, "endMs": 6500, "emphasis": true },
+    { "text": "See", "startMs": 7200, "endMs": 7400, "emphasis": false },
+    { "text": "you", "startMs": 7400, "endMs": 7550, "emphasis": false },
+    { "text": "tomorrow", "startMs": 7550, "endMs": 8100, "emphasis": false },
+    { "text": "on", "startMs": 8400, "endMs": 8550, "emphasis": false },
+    { "text": "Koh", "startMs": 8550, "endMs": 8750, "emphasis": false },
+    { "text": "Tao", "startMs": 8750, "endMs": 9300, "emphasis": true }
+  ],
+  "zooms": [
+    { "atMs": 1020, "durationMs": 1600, "scale": 1.12, "style": "snap", "focus": [0.5, 0.55] },
+    { "atMs": 4400, "durationMs": 2800, "scale": 1.15, "style": "push", "focus": [0.6, 0.45] },
+    { "atMs": 8750, "durationMs": 1200, "scale": 1.12, "style": "snap", "focus": [0.5, 0.5] }
+  ],
+  "graphics": [
+    { "type": "postcardTitle", "startMs": 0, "endMs": 5200, "title": "Crystal Beach", "place": "Koh Samui", "country": "THAILAND", "flag": "TH" },
+    { "type": "weatherBadge", "startMs": 300, "endMs": 5200, "date": "October 1", "tempC": 32, "icon": "sun" },
+    { "type": "sideNotes", "startMs": 900, "endMs": 5200, "side": "left", "notes": ["Turquoise Water", "White Sand", "Beautiful Rocks", "Good Vibes Only"] },
+    { "type": "tagline", "startMs": 2200, "endMs": 5200, "text": "Life is Better in Thailand", "anchor": "bottomRight" }
+  ]
+}
