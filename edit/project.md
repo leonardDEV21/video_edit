@@ -1,6 +1,6 @@
 # Project: Koh Tao breakfast (first video)
 
-Status: **Phase 1, GATE A. Waiting for owner approval. Nothing has been cut or rendered.**
+Status: **Phase 1, GATE A (revision 2, after owner answers). Waiting for approval. Nothing has been cut or rendered.**
 
 ## 1. Footage facts (Phase 0)
 
@@ -37,51 +37,69 @@ orange cushion on the right side of the frame; the sea and island fill the left 
 | 60 s | Daughter on a teal bean bag under the roof, trees behind |
 | 62–84 s | Medium, same angle: she eats and talks (price talk) |
 
+## 1a. Location (confirmed)
+
+* **Venue:** Tao Thong Villa 2 (owner confirmed; carved key tag at 10 s reads "TAO THONG 2 / ROOM No 1").
+* **Where:** Laem Je Da Kang (Cape Jeda Kang), southwest tip of **Koh Tao**, Surat Thani province, **Thailand**.
+  It is a short walk from Tao Thong beach, on the coastal path between Mae Haad and Sai Nuan.
+* **Coordinates:** **10.06935 N, 99.81694 E**. Source: OpenStreetMap node "Tao Thong Villa 2".
+  The TravelFish GPS listing (10.0701 N, 99.8170 E) agrees to within about 100 m.
+  Tao Thong Villa 1 is a separate property about 60 m away.
+* **Map stills** (OSM tiles, `© OpenStreetMap contributors`), not committed:
+  `verify/map/map_1_thailand.jpg`, `map_2_koh_tao.jpg` and `map_3_villa.jpg` (1080x1920 each).
+
+## 1b. Prices
+
+They paid **400 baht** for breakfast for four.
+* Rate: ECB reference rate on 8 Oct 2026 via frankfurter.dev, **1 EUR = 37.68 THB** (1 THB = €0.0265).
+* **400 THB ≈ €10.60 for 4, so 100 THB ≈ €2.65 per person.**
+* In the video they guess "10 euros, maybe 12". The captions keep their words; the price graphic shows the real conversion.
+
 ## 2. What the video is about
 
 **LT:** Šeima pusryčiauja paplūdimio restorane Koh Tao saloje (Tailande) su vaizdu į jūrą ir salą.
-Rodo jogurto dubenėlį su vaisiais ir granola (užsisako jau trečią dieną), vaiko vištienos sumuštinį,
+Rodo jogurto dubenėlį su vaisiais ir granola (užsisako jau trečią dieną), sūnaus vištienos sumuštinį,
 papajos salotas, ir paskaičiuoja, kiek kainavo: apie 400 batų, tai yra 10–12 eurų keturiems.
 
 **EN:** A family eats breakfast at a beach restaurant on Koh Tao, Thailand, looking out over turquoise
 water and a small island. They show the fruit, granola and yogurt bowl they have ordered three days
-running, the kid's chicken sandwich and a papaya salad, then work out the bill: about 400 baht,
-roughly 10 to 12 euros for four people.
+running, their son's chicken sandwich and a papaya salad, then work out the bill: about 400 baht,
+about €10.60 for four people.
 
 ## 3. Full transcript and translation
 
 Word-level Lithuanian transcript: `edit/transcripts/source.json` (faster-whisper large-v3, CPU int8,
 VAD on, 163 s run). Readable version: `edit/transcripts/source.txt`.
-Times are source seconds. `[cut]` = proposed for removal (section 4).
+Times are source seconds. = proposed for removal (section 4).
 
 | Source | Lithuanian (as transcribed) | English |
 |---|---|---|
 | 0.43–6.09 | Nu ką, esame Kotau ir pradėjome rytą štai nuo tokių pusryčių. | So, we're on Koh Tao, and we started the morning with a breakfast like this. |
-| 7.01–9.01 `[cut]` | Parodyk, kur esame. | Show them where we are. |
+| 7.01–9.01 | Parodyk, kur esame. | Show them where we are. |
 | 9.83–10.9 | Galit pasižymėt, | You can save this spot. |
-| 12.19–12.9 `[cut]` | kam įdomu, | if you're interested, |
+| 12.19–12.9 | kam įdomu, | if you're interested, |
 | 13.27–17.6 | labai faina, labai graži, tokių vaizdų, tokie pusryčiai | Really nice, so beautiful. Views like this, breakfasts like this. |
-| 17.71–18.6 `[cut]` | ir čionais yra... | and here there's... |
+| 17.71–18.6 | ir čionais yra... | and here there's... |
 | 18.61–23.93 | Mes jau trečią dieną [?] užsisakome šitą jogurtą, salotytės, mangas. | Third day in a row we've ordered this yogurt bowl. Fruit salad, mango. |
 | 24.13–25.57 | Švieži vaisiai, nu. | Fresh fruit. |
-| 25.75–27.57 `[cut]` | Švieži vaisiai, [papajos?]. | Fresh fruit, papaya. (repeat) |
+| 25.75–27.57 | Švieži vaisiai, [papajos?]. | Fresh fruit, papaya. |
 | 27.57–33.3 | Čia ir dragon fruitas yra, ir bananas sudėtas, ir biški riešutų, ir šito granolos, biški su jogurtu, | There's dragon fruit, banana, a few nuts, some granola, a bit of yogurt. |
-| 33.5–35.47 `[cut]` | labai labai sotu iš tikrųjų, dieną užsotina, ne? | Really filling, keeps you full all day, right? (said again next line) |
+| 33.5–35.47 | labai labai sotu iš tikrųjų, dieną užsotina, ne? | Really filling, honestly. Keeps you full all day, right? |
 | 35.65–40.33 | Labai sotu ir energingas, laimingas, nepersivalgęs, ir [plaukiam] toliau, ane? | Really filling. You feel energised, happy, not stuffed, and off you go, right? |
-| 40.33–41.5 `[cut]` | Jo, tokia vaizda, nu ir | Yeah, a view like this. And |
-| 41.6–46.57 | vaiko, va, chicken'o sandwich'is. Vaiko chicken'as, jisai, galima užsidėti visokių ir padažų, bet jisai nesideda. | the kid's chicken sandwich. You can add all kinds of sauces, but he skips them. |
-| 46.67–49.87 `[cut]` | Bet kai gražiai paruošta, viskas, [danytė?], viskas, nu. | But it's all so nicely made. |
-| 49.87–50.4 `[cut]` | Valgo, | Eat up. |
+| 40.33–41.5 | Jo, tokia vaizda, nu ir | Yeah, a view like this. And |
+| 41.6–46.57 | vaiko, va, chicken'o sandwich'is. Vaiko chicken'as, jisai, galima užsidėti visokių ir padažų, bet jisai nesideda. | our son's chicken sandwich. You can add all kinds of sauces, but he doesn't. |
+| 46.67–49.87 | Bet kai gražiai paruošta, viskas, [danytė?], viskas, nu. | But it's all so nicely made. |
+| 49.87–50.4 | Valgo, | He's eating. |
 | 50.51–56.0 | o čia tavo bus papajos salotos, labai labai skanu, | And this one is your papaya salad. Really, really tasty. |
-| 56.13–56.87 `[cut]` | labai išraiškinga skonio paletė, jo. | (said again next line) |
+| 56.13–56.87 | labai išraiškinga skonio paletė, jo. | Such a bold mix of flavours. |
 | 56.87–58.1 | Labai išraiškingo skonio, | Really bold flavours. |
 | 58.6–62.13 | jau dukra, žinokit, tą patį patiekalą. Jau baigia suvalgyti. | And our daughter, you know, the same dish. She's almost finished it. |
-| 62.17–63.1 `[cut]` | Baigia suvalgyti, | Almost finished, |
+| 62.17–63.1 | Baigia suvalgyti, | Almost finished, |
 | 63.17–66.11 | tai realiai kiek mes čia išleidome, šiaip, realiai? | So how much did we actually spend here? Honestly? |
 | 66.53–70.75 | Kiek mes išleidome, ne, dabar nežinau, 400 batų, gal? 400 batų. | How much did we spend... I'm not sure, 400 baht maybe? 400 baht. |
 | 70.89–76.37 | Tai čia 10 eurų, gal 12 eurų, kažkas tokio, gal? 12 eurų keturiems asmenims, ne? | So that's 10 euros, maybe 12, something like that? 12 euros for four people, right? |
 | 76.39–78.09 | Nu, pusryčiai, čia dar porą kiaušinių [gavau?]. | Well, breakfast, plus a couple of eggs. |
-| 78.19–80.19 `[cut]` | 400 batų? Nu, [pataisykit?] mane. | 400 baht? Well, correct me. |
+| 78.19–80.19 | 400 batų? Nu, [pataisykit?] mane. | 400 baht? Well, correct me. |
 | 80.33–82.81 | Na, super, gerai, skanu [?] labai. Ačiū. | Great, really good, so tasty. Thank you! |
 
 ### Uncertain words (please check)
@@ -89,17 +107,17 @@ Times are source seconds. `[cut]` = proposed for removal (section 4).
 * **Kotau** (0.43 s, p=0.42): read as **Koh Tao**. The key tag "TAO THONG" agrees.
 * **šeilės** (19.9 s): unclear, maybe "visi" or "čia". Left out of the English.
 * **salatytės mangas** (21.8 s): read as "salotytės, mangas" (fruit salad, mango). No mango is clearly visible.
-* **pavaugai** (26.8 s): maybe "papajos" (papaya). The line is cut anyway.
+* **pavaugai** (26.8 s): maybe "papajos" (papaya). 
 * **tie šeimi plaukai į toliau** (38.4 s): read as "ir plaukiam toliau" ("and off you go"), an idiom.
-* **jisai** (43.5 s, 45.7 s): "he" (the child). The child at 60 s is called "dukra" (daughter); this may be a second child, or "jisai" may mean the sandwich. English uses "he"; I need to know who.
-* **danytė** (48.5 s): unclear. The line is cut.
+* **jisai** (43.5 s, 45.7 s): "he" = **their son** (owner confirmed; he is not in frame).
+* **danytė** (48.5 s): unclear, left out of the English.
 * **sponio paletį** (56.8 s): read as "skonio paletė" (flavour palette).
 * **Ba** (68.8 s, 70.4 s, 78.3 s): read as **baht** (Thai currency).
 * **asmenimui** (75 s): read as "asmenims" (people), so four people in total.
 * **galau** (77.9 s): maybe "gavau" (I got) or "gale" (at the end). English: "plus a couple of eggs".
-* **prašau mane** (79.3 s): maybe "pataisykit mane" (correct me). The line is cut.
+* **prašau mane** (79.3 s): maybe "pataisykit mane" (correct me).
 * **skanau savo** (81.6 s): read as "skanu, labai" (very tasty).
-* **Prices:** 400 baht is about €10–11 at current rates; they say "10, maybe 12 euros". Captions keep their words; the graphic says "≈ €12".
+* **Prices:** 400 baht ≈ €10.60 (section 1b); they say "10, maybe 12 euros". Captions keep their words; the graphic shows the real rate.
 
 ## 4. GATE A plan
 
@@ -120,154 +138,142 @@ Installed in this container: **no** video-use, Remotion or editor-pro-max skills
 ### 4.2 Outputs
 
 * **One vertical video, 1080x1920, 30 fps**, for Instagram Reels, TikTok and YouTube Shorts.
-* **No 16:9 version.** The source is portrait and only 84 s long.
+* **No 16:9 version.** The source is portrait.
 * Cover: 1080x1920 (`out/thumb-short-1.jpg`).
-* Cut phase: tone-map HDR HLG to SDR BT.709, conform 29.97 fps to 30, clean cut, no text.
+* Cut phase: tone-map HDR HLG to SDR BT.709, conform 29.97 fps to 30, no text.
 
-### 4.3 Target length
+### 4.3 Length: full video, no skipping (owner decision)
 
-**About 61 s of speech plus a 2.5 s end card, so about 63–64 s.** 16 kept segments, average shot
-about 3.8 s, pauses over 300 ms removed. If the owner wants it under 45 s, drop segments 5, 10, 15 and 3,
-and trim 7.
+The owner asked to show the whole video. **Every line and every shot stays.**
+Only the silent lead-in (0–0.35 s) and the tail after "Ačiū" (82.9–84.3 s) are trimmed.
+That gives **about 82.5 s of footage plus a 2.5 s end card, so about 85 s**.
+Repeated lines are kept, and the energy comes from zooms, graphics, the map insert and the music instead of cuts.
 
-### 4.4 Story structure (keep and cut)
+### 4.4 Story structure (full video, output ≈ source time − 0.35 s)
 
-Output times are approximate until the cut is made.
+| Source | Beat | What happens on top |
+|---|---|---|
+| 0.35–6.1 | **Hook + postcard** | Hook title, snap zoom, then the postcard opener |
+| 6.1–9.6 | **"Show them where we are" → MAP** | Fullscreen animated map insert (section 4.7a), voice continues |
+| 9.6–12.0 | Key tag close-up | "You can save this spot", label "Tao Thong Villa 2 · Room 1" |
+| 12.0–18.6 | View | Side notes on the sea side |
+| 18.6–27.6 | Dish 1: yogurt bowl | Label "Day 3: Yogurt Bowl", push-in on the bowl |
+| 27.6–40.3 | Ingredients → "off you go" | Ingredient doodles, tagline |
+| 40.3–49.9 | Dish 2: son's chicken sandwich | Label "Son's Chicken Sandwich", close-ups |
+| 49.9–58.5 | Dish 3: papaya salad | Label "Papaya Salad" |
+| 58.5–63.1 | Daughter (owner OK to show) | Small pink heart doodle |
+| 63.1–78.1 | **Price talk** | Price tag build, plus 2–3 s food cutaways over the fixed angle |
+| 78.1–82.9 | Outro: "correct me… great, so tasty. Thank you!" | Captions only, then the end card |
+| 82.9–85.4 | End card | Follow @badiesflowers |
 
-| # | Source keep | Output | Beat | Content |
-|---|---|---|---|---|
-| 1 | 0.35–6.15 | 0.00–5.80 | **Hook + postcard** | "So, we're on Koh Tao, and we started the morning with a breakfast like this." |
-| — | 6.15–9.60 | cut | | "Show them where we are", camera moves |
-| 2 | 9.60–10.95 | 5.80–7.15 | Place reveal | key tag close-up, "You can save this spot." |
-| — | 10.95–13.20 | cut | | pause, "if you're interested" |
-| 3 | 13.20–17.65 | 7.15–11.60 | View | "Really nice, so beautiful. Views like this, breakfasts like this." |
-| 4 | 18.55–23.95 | 11.60–17.00 | Dish 1 | yogurt bowl close-up, "third day in a row" |
-| 5 | 24.10–25.05 | 17.00–17.95 | | "Fresh fruit." |
-| — | 25.05–27.55 | cut | | repeated line |
-| 6 | 27.55–33.35 | 17.95–23.75 | Ingredients | dragon fruit, banana, nuts, granola, yogurt |
-| — | 33.35–35.60 | cut | | "really filling" (said twice) |
-| 7 | 35.60–40.25 | 23.75–28.40 | Payoff 1 | "energised, happy, not stuffed, and off you go" |
-| — | 40.25–41.55 | cut | | filler |
-| 8 | 41.55–46.60 | 28.40–33.45 | Dish 2 | chicken sandwich close-ups |
-| — | 46.60–50.45 | cut | | "nicely made", filler |
-| 9 | 50.45–56.05 | 33.45–39.05 | Dish 3 | papaya salad close-up, "really, really tasty" |
-| 10 | 56.85–58.15 | 39.05–40.35 | | "Really bold flavours." |
-| 11 | 58.60–62.15 | 40.35–43.90 | Family | daughter shot, "almost finished it" |
-| — | 62.15–63.10 | cut | | repeat |
-| 12 | 63.10–66.15 | 43.90–46.95 | **Price question** | "So how much did we actually spend?" |
-| 13 | 66.50–70.80 | 46.95–51.25 | | "400 baht maybe? 400 baht." |
-| 14 | 70.85–76.38 | 51.25–56.78 | **Punchline** | "…12 euros for four people, right?" |
-| 15 | 76.38–78.10 | 56.78–58.50 | | "plus a couple of eggs" |
-| — | 78.10–80.30 | cut | | "400 baht? correct me" |
-| 16 | 80.30–82.85 | 58.50–61.05 | Outro | "Great, so tasty. Thank you!" |
-| End card | freeze or hold on last frame | 61.05–63.55 | CTA | Follow @badiesflowers |
-
-Segments 12–14 are one fixed angle. To hide those jump cuts, they get 2–3 s B-roll cutaways from the
-same footage (voice continues): bowl 20.0–22.5, papaya and eggs 52.2–55.0, sandwich 43.5–46.0.
+Segments 63–78 s are one fixed camera angle. To keep them lively there are cutaways
+from the same footage (voice continues): bowl 20.0–22.5, papaya and eggs 52.2–55.0, sandwich 43.5–46.0.
+These are B-roll overlays, not cuts, so no audio is skipped.
 
 ### 4.5 The 2-second hook
 
-* **0.0–1.8 s:** HookTitle **"€12 breakfast for 4?"** (Montserrat 800, white with dark shadow, "€12" on a
-  pink brush stroke). It adds information the voice does not give until 56 s.
-* Snap zoom 1.15 on "Koh Tao" (about 1.3 s), focus on her face.
-* A whoosh plays on the title entrance.
-* **Option B** (owner choice): cold-open with 1.5 s of segment 14 ("12 euros for four people, right?"),
-  then cut to the intro. This hooks harder but is less "postcard".
+* **0.0–1.8 s:** HookTitle **"Breakfast for 4 = 400 ฿"**, with "400 ฿" on a pink brush stroke.
+  This is information the voice gives only at 66 s.
+* Snap zoom 1.15 on "Koh Tao" (about 1.3 s), with a whoosh on the title.
 
 ### 4.6 Zooms
 
-About 14 zooms in 61 s (one every 3–5 s, never two within 1.5 s), scale 1.08–1.18 (source is
-1080-wide, so 1.2 is the maximum). They alternate snap and slow push-in, land on emphasis words and reset at every cut.
-Planned spots: "Koh Tao", "beautiful", "third day", "dragon fruit", "energised", "chicken sandwich",
-"really, really tasty", "daughter", "how much", "400 baht", "12 euros", "four people", "Thank you".
-No zooms on the close-up food shots, which are already tight; those get a slow 1.05 push-in at most.
+About 16 zooms over 82 s (one every 4–6 s, never two within 1.5 s), at 1.08–1.18x. They alternate snap and slow push-in, land on emphasis words and reset at each scene change.
+Planned spots: "Koh Tao", "beautiful", "third day", "fresh fruit", "dragon fruit", "really filling", "energised",
+"chicken sandwich", "really, really tasty", "bold flavours", "daughter", "how much", "400 baht", "12 euros",
+"four people", "Thank you". The food close-ups get only a slow 1.05x push-in.
 
 ### 4.7 Postcard graphics (section 6a)
 
-Only from what is said or seen:
-* **PostcardTitle** (top centre, 1.6–6.0 s): script title **"Koh Tao"** (said at 1.6 s) with a pink heart and a white palm doodle;
-  pink brush stroke underneath: **"Breakfast at Tao Thong"** (from the key tag); then **THAILAND 🇹🇭** in spaced caps
-  (inferred from "baht" and Koh Tao; not said).
-* **WeatherBadge** (top right): **date and temperature are needed from the owner.** The file has no date. Without them, the badge is dropped.
-* **SideNotes** (left edge, over sea and sky, 7.2–11.6 s, 350 ms apart):
-  "Turquoise Water ♡", "Island View ♡", "Fresh Fruit Bowls ♡", "Breakfast by the Sea ♡". The first is white with no patch, over the sky.
-* **Tagline** (bottom right, 24.5–28.0 s): "Happy, Full & Off We Go ♡" (from her line at 38 s).
-* **Doodles:** palm by the title, small sun on the badge.
-* **Dish labels** (`Callout`, Caveat on a pink stroke, near the dish): "Day 3: Yogurt Bowl" (12.0 s),
-  "Kid's Chicken Sandwich" (28.6 s), "Papaya Salad" (33.6 s).
-* **Price tag** (`Callout`, punchline, 47–57 s): "400 ฿" pops in at 47.2 s, then "≈ €12 for 4" at 52.5 s.
-* **Watermark** "@badiesflowers", low opacity, top left inside the safe area.
-* **ProgressBar**, thin, top edge.
-* **EndCard** 61.0–63.5 s: "Follow @badiesflowers for more Koh Tao".
-* All text stays inside the 9:16 safe areas (not in the top 250 px, bottom 450 px or right 130 px). Her face sits right of centre, so the notes go left.
+* **PostcardTitle** (top centre, 1.6–6.0 s): script **"Koh Tao"** with a pink heart and a palm doodle,
+  pink brush stroke **"Tao Thong Villa 2"**, then **THAILAND 🇹🇭**.
+* **WeatherBadge** (top right, 2.0–6.0 s): **"September 10"** on a pink stroke, yellow sun, **30°C**.
+  The owner wrote "9/10"; I read it as 10 September because 9 October is still in the future. Please confirm.
+* **SideNotes** (left edge, over sea and sky, 12.0–17.5 s, 350 ms apart):
+  "Turquoise Water ♡", "Island View ♡", "Fresh Fruit Bowls ♡", "Breakfast by the Sea ♡".
+* **Tagline** (bottom right, 36.0–40.0 s): "Happy, Full & Off We Go ♡".
+* **Dish labels** (`Callout`, Caveat on pink): "Tao Thong Villa 2 · Room 1" (9.8 s), "Day 3: Yogurt Bowl" (19.0 s),
+  "Son's Chicken Sandwich" (42.0 s), "Papaya Salad" (51.5 s).
+* **Price tag** (`Callout`):
+  * "400 ฿" pops in at 68.4 s ("400 baht").
+  * "≈ €10.60 for 4" builds at 72.3 s.
+  * "≈ €2.65 each" appears at 75.0 s ("for four people").
+  * The rate (1 EUR = 37.68 THB, 8 Oct 2026) goes in the project notes, not on screen.
+* **Watermark** "@badiesflowers", **ProgressBar** and **EndCard** "Follow @badiesflowers for more Koh Tao".
+* All text stays inside the 9:16 safe areas; the notes go left, away from her face.
+
+### 4.7a Map insert ("Show them where we are", 6.2–9.6 s)
+
+This is a new `MapZoom` component, fullscreen 1080x1920, while the voice continues.
+* 6.2–7.2 s: map of Thailand with a pink pin and "Koh Tao".
+* 7.2–8.3 s: smooth zoom (eased, from `useCurrentFrame`) into Koh Tao. The pin moves to the southwest cape.
+* 8.3–9.6 s: close map with "Tao Thong Villa 2" on a pink stroke and a tiny "10.069° N, 99.817° E" in Caveat. A soft pop plays when the pin lands.
+* It hands off on a hard cut to the real key-tag shot at 9.6 s.
+* Built from three prerendered OSM map stills (`public/map/`) with a crossfade-zoom between them, with attribution
+  "© OpenStreetMap contributors" in small text, as the OSM licence requires.
+* Drafts are in `verify/map/`.
 
 ### 4.8 Captions
 
-English karaoke (section 7): Montserrat 800, white with black outline; the active word is yellow `#FFD400` with a small scale pop; 2–3 words per page;
-lower middle, above the 450 px bottom safe area. Emphasis words stay yellow: Koh Tao, beautiful, third day,
-dragon fruit, energised, chicken sandwich, tasty, bold, 400 baht, 12 euros, four people.
-The caption steps aside (fades) while a dish label or the price tag is on screen, so only one new element appears at a time.
+English karaoke (section 7): Montserrat 800, white with a black outline; the active word is yellow `#FFD400` with a pop;
+2–3 words per page, lower middle above the 450 px bottom safe area. Emphasis words stay yellow.
+Captions fade while the map, a dish label or the price tag animates in.
 
-Full English caption text (in order of the cut):
+Full English caption text:
 
 > So, we're on Koh Tao, and we started the morning with a breakfast like this.
-> You can save this spot.
-> Really nice, so beautiful. Views like this, breakfasts like this.
+> Show them where we are.
+> You can save this spot, if you're interested. Really nice, so beautiful. Views like this, breakfasts like this. And here there's…
 > Third day in a row we've ordered this yogurt bowl. Fruit salad, mango.
-> Fresh fruit.
+> Fresh fruit. Fresh fruit, papaya.
 > There's dragon fruit, banana, a few nuts, some granola, a bit of yogurt.
+> Really filling, honestly. Keeps you full all day, right?
 > Really filling. You feel energised, happy, not stuffed, and off you go, right?
-> The kid's chicken sandwich. You can add all kinds of sauces, but he skips them.
-> And this one is your papaya salad. Really, really tasty.
-> Really bold flavours.
-> And our daughter, you know, the same dish. She's almost finished it.
-> So how much did we actually spend here? Honestly?
+> Yeah, a view like this. And our son's chicken sandwich. You can add all kinds of sauces, but he doesn't.
+> But it's all so nicely made.
+> He's eating. And this one is your papaya salad. Really, really tasty. Such a bold mix of flavours.
+> Really bold flavours. And our daughter, you know, the same dish. She's almost finished it.
+> Almost finished. So how much did we actually spend here? Honestly?
 > How much did we spend… I'm not sure, 400 baht maybe? 400 baht.
 > So that's 10 euros, maybe 12, something like that? 12 euros for four people, right?
-> Well, breakfast, plus a couple of eggs.
+> Well, breakfast, plus a couple of eggs. 400 baht? Well, correct me.
 > Great, really good, so tasty. Thank you!
 
 ### 4.9 Sound
 
-* **Effects** (about 9, each tied to a visible event, about -14 to -18 dB under the voice): whoosh on the hook title,
-  soft brush swish on the postcard stroke, a light pop on each dish label (3), a "ka-ching" on "400 ฿",
-  a pop on "≈ €12 for 4", a whoosh into the end card. No effects on side notes or zooms.
-* **Music**, two contrasting beds for the owner to choose:
-  **A)** sunny acoustic or ukulele with a light beat, about 100–110 BPM (warm, travel-diary feel);
-  **B)** upbeat tropical house, about 118–124 BPM (more "live and energetic", matches the brief).
-  The bed is ducked about 13 dB under speech, sits at about -22 dB, and fades out over 1.5 s before the end-card CTA.
-  Needs a licence-safe track (YouTube Audio Library or the owner's licensed library); none is in the repo yet.
-* **Master:** two-pass loudnorm to -14 LUFS integrated, true peak ≤ -1 dBTP (source is -20.5 LUFS, peak -0.7).
-* I cannot listen to audio. I will report measured numbers only.
+* **Effects** (about 11): whoosh on the hook, brush swish on the postcard stroke, whoosh into the map, pop on the map pin,
+  4 label pops, "ka-ching" on "400 ฿", pop on "≈ €10.60", whoosh into the end card. Each sits about -14 to -18 dB below the voice.
+* **Music:** two options. A is sunny acoustic or ukulele at about 105 BPM. B is upbeat tropical house at about 120 BPM, which I recommend for "energetic".
+  The bed is ducked about 13 dB under speech, sits at about -22 dB and fades out before the end-card CTA. It needs a licence-safe track.
+* **Master:** two-pass loudnorm to -14 LUFS, true peak ≤ -1 dBTP (source is -20.5 LUFS, peak -0.7).
+* I cannot listen to audio, so I'll report measured numbers only.
 
-### 4.10 Thumbnail candidates (3 source timecodes)
+### 4.10 Thumbnail candidates
 
-1. **2.0 s:** woman smiling at the camera in the clear middle, sea and island behind. Strongest face-plus-place frame.
-2. **15.0 s:** wide shot with deck, island, turquoise water and her in profile. Best scenery.
-3. **20.5 s:** yogurt bowl held over the deck with sea behind (food hero, no face).
+1. **2.0 s:** smiling at the camera, centred, with sea and island.
+2. **15.0 s:** wide shot of the deck, island and turquoise water.
+3. **20.5 s:** the yogurt bowl over the sea.
 
-Title on the cover: **"Koh Tao"** (script), with "€12 breakfast for 4" on a pink stroke. The bottom-right corner stays free.
-She wears sunglasses in every frame, so "eyes open" cannot be checked.
+Cover: script "Koh Tao" with "Breakfast for 4 = 400 ฿" on a pink stroke.
 
 ### 4.11 Assumptions
 
-* One vertical deliverable only; no Shorts split, because the source is already a single 84 s short.
-* "Energetic" means tight cuts (every 3–4 s), the medium-high end of zoom density and bed B as the
-  recommendation, while keeping the warm postcard look from CLAUDE.md.
-* Country (Thailand) and the venue name (Tao Thong) come from the key tag and "baht", not from the speech.
-* The two adults are a couple and the child is their daughter (from "dukra"); four people at the table.
+* The whole video is kept ("show all video, no skipping"), with trims only of silence at the very start and end.
+* The date is 10 September (from "9/10"), and the temperature 30°C.
+* Four people: two adults, a daughter (in frame at 60 s) and a son (not in frame).
+* The price graphic uses the ECB rate of 8 Oct 2026; on the day itself the rate may have differed slightly.
 
 ### 4.12 Open questions for the owner
 
-1. **Date and temperature** for the WeatherBadge (or drop the badge)?
-2. Is the restaurant/hotel name **"Tao Thong"** (Tao Thong Villa?) correct and OK to show?
-3. Hook: **A** (title over the intro, recommended) or **B** (cold-open with the "€12 for four" line)?
-4. Music: bed **A** (acoustic) or **B** (tropical house)? Do you have a track or library?
-5. "jisai" at 43–46 s: is the sandwich for a son (a second child) or for the daughter?
-6. Is about 63 s right, or do you want a tighter version under 45 s?
-7. Show the face of the daughter (60 s) or skip that shot?
-8. Thumbnail: which of the 3 frames?
+1. Is "9/10" **10 September** (as assumed) or 9 October?
+2. Music A or B, and do you have a track or a library?
+3. Which thumbnail frame: 2.0 s, 15.0 s or 20.5 s?
+4. Is the map insert at "show them where we are" OK (3.4 s fullscreen, voice continues)?
 
 ## 5. Decisions log
 
-* 2026-10-08: intake done, plan proposed (this file). Waiting for GATE A.
+* 2026-10-08: intake done, plan proposed. Waiting for GATE A.
+* 2026-10-08, owner answers: the venue is Tao Thong Villa 2 (confirmed on OSM, 10.06935 N, 99.81694 E); add a map visual;
+  show prices in baht and EUR; date "9/10", 30°C; "he" = son, not in frame; **show the whole video, no skipping**.
+  Plan revised to rev 2.
+* Style rule learned: this owner prefers keeping the full talk; get energy from graphics, zooms and music, not cuts.
