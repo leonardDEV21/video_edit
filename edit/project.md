@@ -253,7 +253,12 @@ Full English caption text:
 2. **15.0 s:** wide shot of the deck, island and turquoise water.
 3. **20.5 s:** the yogurt bowl over the sea.
 
-Cover: script "Koh Tao" with "Breakfast for 4 = 400 ฿" on a pink stroke.
+**Owner picked frame 2 (15.0 s).** The cover is that frame dressed up in the postcard style, as a Remotion still from the timeline:
+* script **"Koh Tao"** large, white, tilted, top centre over the sky, with a pink heart and a palm doodle;
+* pink brush stroke **"Breakfast for 4 = 400 ฿"**;
+* small spaced caps **"TAO THONG VILLA 2 · THAILAND 🇹🇭"**;
+* a light 1.05 crop centred on her and the island. The face stays clear, the bottom-right corner stays free, and there are no captions.
+Readability will be checked on a 320 px wide copy. Output: `out/thumb-short-1.jpg` (1080x1920).
 
 ### 4.11 Assumptions
 
@@ -265,8 +270,7 @@ Cover: script "Koh Tao" with "Breakfast for 4 = 400 ฿" on a pink stroke.
 ### 4.12 Open questions for the owner
 
 1. Music A or B, and do you have a track or a library?
-2. Which thumbnail frame: 2.0 s, 15.0 s or 20.5 s? (Stills are in `verify/thumbs/`.)
-3. Is the map insert at "show them where we are" OK (3.4 s fullscreen, voice continues)?
+2. Is the map insert at "show them where we are" OK (3.4 s fullscreen, voice continues)?
 
 ## 5. Decisions log
 
@@ -274,5 +278,5 @@ Cover: script "Koh Tao" with "Breakfast for 4 = 400 ฿" on a pink stroke.
 * 2026-10-08, owner answers: the venue is Tao Thong Villa 2 (confirmed on OSM, 10.06935 N, 99.81694 E); add a map visual;
   show prices in baht and EUR; date "9/10", 30°C; "he" = son, not in frame; **show the whole video, no skipping**.
   Plan revised to rev 2.
-* 2026-10-08: the owner corrected the date to **7 October** (30°C). The price rate is now the ECB rate of 7 Oct (37.661 THB/EUR). Thumbnail stills shown.
+* 2026-10-08: the owner corrected the date to **7 October** (30°C). The price rate is now the ECB rate of 7 Oct (37.661 THB/EUR). Thumbnail stills shown; the owner picked 15.0 s, dressed in the postcard style.
 * Style rule learned: this owner prefers keeping the full talk; get energy from graphics, zooms and music, not cuts.
