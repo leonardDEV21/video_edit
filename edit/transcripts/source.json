@@ -1,0 +1,1436 @@
+{
+ "model": "large-v3",
+ "language": "lt",
+ "duration": 84.356625,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.43,
+   "end": 6.09,
+   "text": "Nu ką, esame Kotau ir pradėjome rytą štai nuo tokių pūsryčių.",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.033,
+   "words": [
+    {
+     "word": "Nu",
+     "start": 0.43,
+     "end": 0.65,
+     "probability": 0.436
+    },
+    {
+     "word": "ką,",
+     "start": 0.65,
+     "end": 1.01,
+     "probability": 0.926
+    },
+    {
+     "word": "esame",
+     "start": 1.01,
+     "end": 1.63,
+     "probability": 0.982
+    },
+    {
+     "word": "Kotau",
+     "start": 1.63,
+     "end": 2.35,
+     "probability": 0.418
+    },
+    {
+     "word": "ir",
+     "start": 2.35,
+     "end": 2.91,
+     "probability": 0.693
+    },
+    {
+     "word": "pradėjome",
+     "start": 2.91,
+     "end": 3.85,
+     "probability": 0.903
+    },
+    {
+     "word": "rytą",
+     "start": 3.85,
+     "end": 4.21,
+     "probability": 0.66
+    },
+    {
+     "word": "štai",
+     "start": 4.21,
+     "end": 4.51,
+     "probability": 0.685
+    },
+    {
+     "word": "nuo",
+     "start": 4.51,
+     "end": 4.77,
+     "probability": 0.994
+    },
+    {
+     "word": "tokių",
+     "start": 4.77,
+     "end": 5.17,
+     "probability": 0.991
+    },
+    {
+     "word": "pūsryčių.",
+     "start": 5.17,
+     "end": 6.09,
+     "probability": 0.773
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 7.01,
+   "end": 9.01,
+   "text": "Parodėk, kur esame.",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.033,
+   "words": [
+    {
+     "word": "Parodėk,",
+     "start": 7.01,
+     "end": 7.81,
+     "probability": 0.594
+    },
+    {
+     "word": "kur",
+     "start": 7.87,
+     "end": 8.59,
+     "probability": 0.9
+    },
+    {
+     "word": "esame.",
+     "start": 8.59,
+     "end": 9.01,
+     "probability": 0.989
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 9.83,
+   "end": 18.61,
+   "text": "Galit pasižymėt, kam įdomu, labai faina, labai graži, tokių vaizdų, tokie pūsryčiai ir čionais yra...",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.033,
+   "words": [
+    {
+     "word": "Galit",
+     "start": 9.83,
+     "end": 10.41,
+     "probability": 0.415
+    },
+    {
+     "word": "pasižymėt,",
+     "start": 10.41,
+     "end": 12.19,
+     "probability": 0.8
+    },
+    {
+     "word": "kam",
+     "start": 12.19,
+     "end": 12.73,
+     "probability": 0.256
+    },
+    {
+     "word": "įdomu,",
+     "start": 12.73,
+     "end": 13.27,
+     "probability": 0.966
+    },
+    {
+     "word": "labai",
+     "start": 13.27,
+     "end": 14.15,
+     "probability": 0.761
+    },
+    {
+     "word": "faina,",
+     "start": 14.15,
+     "end": 14.49,
+     "probability": 0.949
+    },
+    {
+     "word": "labai",
+     "start": 14.61,
+     "end": 14.93,
+     "probability": 0.991
+    },
+    {
+     "word": "graži,",
+     "start": 14.93,
+     "end": 15.25,
+     "probability": 0.813
+    },
+    {
+     "word": "tokių",
+     "start": 15.41,
+     "end": 16.21,
+     "probability": 0.689
+    },
+    {
+     "word": "vaizdų,",
+     "start": 16.21,
+     "end": 16.61,
+     "probability": 0.797
+    },
+    {
+     "word": "tokie",
+     "start": 16.75,
+     "end": 17.09,
+     "probability": 0.934
+    },
+    {
+     "word": "pūsryčiai",
+     "start": 17.09,
+     "end": 17.71,
+     "probability": 0.994
+    },
+    {
+     "word": "ir",
+     "start": 17.71,
+     "end": 17.89,
+     "probability": 0.228
+    },
+    {
+     "word": "čionais",
+     "start": 17.89,
+     "end": 18.23,
+     "probability": 0.72
+    },
+    {
+     "word": "yra...",
+     "start": 18.23,
+     "end": 18.61,
+     "probability": 0.753
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 18.61,
+   "end": 23.93,
+   "text": "Mes jau trečią dieną šeilės susisakome šitą jogurtą, salatytės mangas.",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.033,
+   "words": [
+    {
+     "word": "Mes",
+     "start": 18.61,
+     "end": 18.93,
+     "probability": 0.82
+    },
+    {
+     "word": "jau",
+     "start": 18.93,
+     "end": 19.09,
+     "probability": 0.572
+    },
+    {
+     "word": "trečią",
+     "start": 19.09,
+     "end": 19.51,
+     "probability": 0.93
+    },
+    {
+     "word": "dieną",
+     "start": 19.51,
+     "end": 19.93,
+     "probability": 0.995
+    },
+    {
+     "word": "šeilės",
+     "start": 19.93,
+     "end": 20.27,
+     "probability": 0.708
+    },
+    {
+     "word": "susisakome",
+     "start": 20.27,
+     "end": 20.87,
+     "probability": 0.971
+    },
+    {
+     "word": "šitą",
+     "start": 20.87,
+     "end": 21.13,
+     "probability": 0.963
+    },
+    {
+     "word": "jogurtą,",
+     "start": 21.13,
+     "end": 21.81,
+     "probability": 0.984
+    },
+    {
+     "word": "salatytės",
+     "start": 21.81,
+     "end": 23.35,
+     "probability": 0.826
+    },
+    {
+     "word": "mangas.",
+     "start": 23.35,
+     "end": 23.93,
+     "probability": 0.806
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 24.13,
+   "end": 25.57,
+   "text": "Švieži vaisiai, nu.",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.033,
+   "words": [
+    {
+     "word": "Švieži",
+     "start": 24.13,
+     "end": 24.93,
+     "probability": 0.842
+    },
+    {
+     "word": "vaisiai,",
+     "start": 24.93,
+     "end": 25.51,
+     "probability": 0.651
+    },
+    {
+     "word": "nu.",
+     "start": 25.51,
+     "end": 25.57,
+     "probability": 0.509
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 25.75,
+   "end": 27.57,
+   "text": "Švieži vaisiai, pavaugai.",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.033,
+   "words": [
+    {
+     "word": "Švieži",
+     "start": 25.75,
+     "end": 26.43,
+     "probability": 0.898
+    },
+    {
+     "word": "vaisiai,",
+     "start": 26.43,
+     "end": 26.83,
+     "probability": 0.944
+    },
+    {
+     "word": "pavaugai.",
+     "start": 26.83,
+     "end": 27.57,
+     "probability": 0.675
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 27.57,
+   "end": 35.47,
+   "text": "Čia ir dragon fruitas yra, ir bananas sudėtas, ir biški riešutų, ir šito granolas, biški su jogurtu, labai labai sotų iš tikrųjų dieną užsotinę, ne?",
+   "avg_logprob": -0.33,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Čia",
+     "start": 27.57,
+     "end": 27.83,
+     "probability": 0.65
+    },
+    {
+     "word": "ir",
+     "start": 27.83,
+     "end": 27.85,
+     "probability": 0.665
+    },
+    {
+     "word": "dragon",
+     "start": 27.85,
+     "end": 27.97,
+     "probability": 0.841
+    },
+    {
+     "word": "fruitas",
+     "start": 27.97,
+     "end": 28.49,
+     "probability": 0.609
+    },
+    {
+     "word": "yra,",
+     "start": 28.49,
+     "end": 28.77,
+     "probability": 0.863
+    },
+    {
+     "word": "ir",
+     "start": 28.79,
+     "end": 29.01,
+     "probability": 0.984
+    },
+    {
+     "word": "bananas",
+     "start": 29.01,
+     "end": 29.27,
+     "probability": 0.597
+    },
+    {
+     "word": "sudėtas,",
+     "start": 29.27,
+     "end": 30.03,
+     "probability": 0.896
+    },
+    {
+     "word": "ir",
+     "start": 30.05,
+     "end": 30.65,
+     "probability": 0.988
+    },
+    {
+     "word": "biški",
+     "start": 30.65,
+     "end": 30.95,
+     "probability": 0.785
+    },
+    {
+     "word": "riešutų,",
+     "start": 30.95,
+     "end": 31.51,
+     "probability": 0.945
+    },
+    {
+     "word": "ir",
+     "start": 31.59,
+     "end": 31.73,
+     "probability": 0.882
+    },
+    {
+     "word": "šito",
+     "start": 31.73,
+     "end": 31.99,
+     "probability": 0.929
+    },
+    {
+     "word": "granolas,",
+     "start": 31.99,
+     "end": 32.63,
+     "probability": 0.947
+    },
+    {
+     "word": "biški",
+     "start": 32.67,
+     "end": 32.95,
+     "probability": 0.955
+    },
+    {
+     "word": "su",
+     "start": 32.95,
+     "end": 33.11,
+     "probability": 0.955
+    },
+    {
+     "word": "jogurtu,",
+     "start": 33.11,
+     "end": 33.51,
+     "probability": 0.964
+    },
+    {
+     "word": "labai",
+     "start": 33.51,
+     "end": 33.81,
+     "probability": 0.985
+    },
+    {
+     "word": "labai",
+     "start": 33.81,
+     "end": 34.03,
+     "probability": 0.925
+    },
+    {
+     "word": "sotų",
+     "start": 34.03,
+     "end": 34.29,
+     "probability": 0.847
+    },
+    {
+     "word": "iš",
+     "start": 34.29,
+     "end": 34.43,
+     "probability": 0.899
+    },
+    {
+     "word": "tikrųjų",
+     "start": 34.43,
+     "end": 34.69,
+     "probability": 0.96
+    },
+    {
+     "word": "dieną",
+     "start": 34.69,
+     "end": 34.87,
+     "probability": 0.717
+    },
+    {
+     "word": "užsotinę,",
+     "start": 34.87,
+     "end": 35.17,
+     "probability": 0.649
+    },
+    {
+     "word": "ne?",
+     "start": 35.37,
+     "end": 35.47,
+     "probability": 0.858
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 35.65,
+   "end": 40.33,
+   "text": "Labai sotų ir energingas, laimingas, nepersivalgas ir tie šeimi plaukai į toliau, ane?",
+   "avg_logprob": -0.33,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Labai",
+     "start": 35.65,
+     "end": 35.67,
+     "probability": 0.952
+    },
+    {
+     "word": "sotų",
+     "start": 35.67,
+     "end": 35.71,
+     "probability": 0.996
+    },
+    {
+     "word": "ir",
+     "start": 35.71,
+     "end": 35.83,
+     "probability": 0.511
+    },
+    {
+     "word": "energingas,",
+     "start": 35.83,
+     "end": 36.59,
+     "probability": 0.965
+    },
+    {
+     "word": "laimingas,",
+     "start": 36.61,
+     "end": 37.29,
+     "probability": 0.997
+    },
+    {
+     "word": "nepersivalgas",
+     "start": 37.31,
+     "end": 38.23,
+     "probability": 0.802
+    },
+    {
+     "word": "ir",
+     "start": 38.23,
+     "end": 38.43,
+     "probability": 0.546
+    },
+    {
+     "word": "tie",
+     "start": 38.43,
+     "end": 38.57,
+     "probability": 0.524
+    },
+    {
+     "word": "šeimi",
+     "start": 38.57,
+     "end": 39.01,
+     "probability": 0.331
+    },
+    {
+     "word": "plaukai",
+     "start": 39.01,
+     "end": 39.71,
+     "probability": 0.758
+    },
+    {
+     "word": "į",
+     "start": 39.71,
+     "end": 39.85,
+     "probability": 0.808
+    },
+    {
+     "word": "toliau,",
+     "start": 39.85,
+     "end": 40.17,
+     "probability": 0.921
+    },
+    {
+     "word": "ane?",
+     "start": 40.17,
+     "end": 40.33,
+     "probability": 0.638
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 40.33,
+   "end": 42.85,
+   "text": "Jo, tokia vaizda, nu ir vaiko, va, chicken'o sandwich'is.",
+   "avg_logprob": -0.33,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Jo,",
+     "start": 40.33,
+     "end": 40.65,
+     "probability": 0.7
+    },
+    {
+     "word": "tokia",
+     "start": 40.67,
+     "end": 40.95,
+     "probability": 0.611
+    },
+    {
+     "word": "vaizda,",
+     "start": 40.95,
+     "end": 41.29,
+     "probability": 0.94
+    },
+    {
+     "word": "nu",
+     "start": 41.39,
+     "end": 41.49,
+     "probability": 0.385
+    },
+    {
+     "word": "ir",
+     "start": 41.49,
+     "end": 41.61,
+     "probability": 0.906
+    },
+    {
+     "word": "vaiko,",
+     "start": 41.61,
+     "end": 42.15,
+     "probability": 0.697
+    },
+    {
+     "word": "va,",
+     "start": 42.15,
+     "end": 42.27,
+     "probability": 0.854
+    },
+    {
+     "word": "chicken",
+     "start": 42.27,
+     "end": 42.49,
+     "probability": 0.713
+    },
+    {
+     "word": "'o",
+     "start": 42.49,
+     "end": 42.71,
+     "probability": 0.752
+    },
+    {
+     "word": "sandwich",
+     "start": 42.71,
+     "end": 42.85,
+     "probability": 0.56
+    },
+    {
+     "word": "'is.",
+     "start": 42.85,
+     "end": 42.85,
+     "probability": 0.523
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 42.87,
+   "end": 46.57,
+   "text": "Vaiko chicken'ius, jisai galima užsidėti visokiu ir padažu, bet jisai nesideda.",
+   "avg_logprob": -0.33,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Vaiko",
+     "start": 42.87,
+     "end": 42.95,
+     "probability": 0.561
+    },
+    {
+     "word": "chicken",
+     "start": 42.95,
+     "end": 43.17,
+     "probability": 0.931
+    },
+    {
+     "word": "'ius,",
+     "start": 43.17,
+     "end": 43.53,
+     "probability": 0.543
+    },
+    {
+     "word": "jisai",
+     "start": 43.53,
+     "end": 43.87,
+     "probability": 0.823
+    },
+    {
+     "word": "galima",
+     "start": 43.87,
+     "end": 44.27,
+     "probability": 0.724
+    },
+    {
+     "word": "užsidėti",
+     "start": 44.27,
+     "end": 44.71,
+     "probability": 0.875
+    },
+    {
+     "word": "visokiu",
+     "start": 44.71,
+     "end": 45.03,
+     "probability": 0.686
+    },
+    {
+     "word": "ir",
+     "start": 45.03,
+     "end": 45.15,
+     "probability": 0.738
+    },
+    {
+     "word": "padažu,",
+     "start": 45.15,
+     "end": 45.51,
+     "probability": 0.89
+    },
+    {
+     "word": "bet",
+     "start": 45.57,
+     "end": 45.71,
+     "probability": 0.995
+    },
+    {
+     "word": "jisai",
+     "start": 45.71,
+     "end": 45.99,
+     "probability": 0.987
+    },
+    {
+     "word": "nesideda.",
+     "start": 45.99,
+     "end": 46.57,
+     "probability": 0.981
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 46.67,
+   "end": 49.87,
+   "text": "Bet kai gražiai paruoštavo viskas, danytė, viskas, nu.",
+   "avg_logprob": -0.33,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Bet",
+     "start": 46.67,
+     "end": 46.97,
+     "probability": 0.995
+    },
+    {
+     "word": "kai",
+     "start": 46.97,
+     "end": 47.15,
+     "probability": 0.951
+    },
+    {
+     "word": "gražiai",
+     "start": 47.15,
+     "end": 47.49,
+     "probability": 0.995
+    },
+    {
+     "word": "paruoštavo",
+     "start": 47.49,
+     "end": 48.03,
+     "probability": 0.863
+    },
+    {
+     "word": "viskas,",
+     "start": 48.03,
+     "end": 48.47,
+     "probability": 0.967
+    },
+    {
+     "word": "danytė,",
+     "start": 48.47,
+     "end": 49.25,
+     "probability": 0.769
+    },
+    {
+     "word": "viskas,",
+     "start": 49.31,
+     "end": 49.71,
+     "probability": 0.977
+    },
+    {
+     "word": "nu.",
+     "start": 49.73,
+     "end": 49.87,
+     "probability": 0.318
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 49.87,
+   "end": 56.87,
+   "text": "Valgo, o čia tavo bus papaja saladai, labai labai skanu, labai išraškingos sponio paletį, jo.",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "Valgo,",
+     "start": 49.87,
+     "end": 50.41,
+     "probability": 0.503
+    },
+    {
+     "word": "o",
+     "start": 50.51,
+     "end": 50.75,
+     "probability": 0.892
+    },
+    {
+     "word": "čia",
+     "start": 50.75,
+     "end": 51.09,
+     "probability": 0.961
+    },
+    {
+     "word": "tavo",
+     "start": 51.09,
+     "end": 51.51,
+     "probability": 0.99
+    },
+    {
+     "word": "bus",
+     "start": 51.51,
+     "end": 51.75,
+     "probability": 0.903
+    },
+    {
+     "word": "papaja",
+     "start": 51.75,
+     "end": 52.91,
+     "probability": 0.593
+    },
+    {
+     "word": "saladai,",
+     "start": 52.91,
+     "end": 53.83,
+     "probability": 0.361
+    },
+    {
+     "word": "labai",
+     "start": 54.07,
+     "end": 55.31,
+     "probability": 0.908
+    },
+    {
+     "word": "labai",
+     "start": 55.31,
+     "end": 55.53,
+     "probability": 0.792
+    },
+    {
+     "word": "skanu,",
+     "start": 55.53,
+     "end": 55.83,
+     "probability": 0.894
+    },
+    {
+     "word": "labai",
+     "start": 55.87,
+     "end": 56.13,
+     "probability": 0.973
+    },
+    {
+     "word": "išraškingos",
+     "start": 56.13,
+     "end": 56.77,
+     "probability": 0.885
+    },
+    {
+     "word": "sponio",
+     "start": 56.77,
+     "end": 56.87,
+     "probability": 0.762
+    },
+    {
+     "word": "paletį,",
+     "start": 56.87,
+     "end": 56.87,
+     "probability": 0.603
+    },
+    {
+     "word": "jo.",
+     "start": 56.87,
+     "end": 56.87,
+     "probability": 0.668
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 56.87,
+   "end": 60.71,
+   "text": "Labai išraškingos sponio, ir va, jau dukra, žinokit, tą patį patiekalą.",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "Labai",
+     "start": 56.87,
+     "end": 57.21,
+     "probability": 0.633
+    },
+    {
+     "word": "išraškingos",
+     "start": 57.21,
+     "end": 57.75,
+     "probability": 0.899
+    },
+    {
+     "word": "sponio,",
+     "start": 57.75,
+     "end": 58.17,
+     "probability": 0.912
+    },
+    {
+     "word": "ir",
+     "start": 58.17,
+     "end": 58.47,
+     "probability": 0.527
+    },
+    {
+     "word": "va,",
+     "start": 58.47,
+     "end": 58.65,
+     "probability": 0.262
+    },
+    {
+     "word": "jau",
+     "start": 58.67,
+     "end": 58.85,
+     "probability": 0.732
+    },
+    {
+     "word": "dukra,",
+     "start": 58.85,
+     "end": 59.09,
+     "probability": 0.853
+    },
+    {
+     "word": "žinokit,",
+     "start": 59.15,
+     "end": 59.59,
+     "probability": 0.695
+    },
+    {
+     "word": "tą",
+     "start": 59.59,
+     "end": 59.75,
+     "probability": 0.911
+    },
+    {
+     "word": "patį",
+     "start": 59.75,
+     "end": 60.05,
+     "probability": 0.994
+    },
+    {
+     "word": "patiekalą.",
+     "start": 60.05,
+     "end": 60.71,
+     "probability": 0.696
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 60.91,
+   "end": 62.13,
+   "text": "Jau, baigą suvalgyti.",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "Jau,",
+     "start": 60.91,
+     "end": 61.37,
+     "probability": 0.811
+    },
+    {
+     "word": "baigą",
+     "start": 61.37,
+     "end": 61.69,
+     "probability": 0.76
+    },
+    {
+     "word": "suvalgyti.",
+     "start": 61.69,
+     "end": 62.13,
+     "probability": 0.938
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 62.17,
+   "end": 66.11,
+   "text": "Baigą suvalgyti, tai realiai kiek mes čia išleidome, šiaip, realiai?",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "Baigą",
+     "start": 62.17,
+     "end": 62.49,
+     "probability": 0.943
+    },
+    {
+     "word": "suvalgyti,",
+     "start": 62.49,
+     "end": 63.07,
+     "probability": 0.997
+    },
+    {
+     "word": "tai",
+     "start": 63.17,
+     "end": 63.33,
+     "probability": 0.976
+    },
+    {
+     "word": "realiai",
+     "start": 63.33,
+     "end": 64.33,
+     "probability": 0.861
+    },
+    {
+     "word": "kiek",
+     "start": 64.33,
+     "end": 64.55,
+     "probability": 0.921
+    },
+    {
+     "word": "mes",
+     "start": 64.55,
+     "end": 64.71,
+     "probability": 0.995
+    },
+    {
+     "word": "čia",
+     "start": 64.71,
+     "end": 64.91,
+     "probability": 0.847
+    },
+    {
+     "word": "išleidome,",
+     "start": 64.91,
+     "end": 65.53,
+     "probability": 0.91
+    },
+    {
+     "word": "šiaip,",
+     "start": 65.57,
+     "end": 65.87,
+     "probability": 0.951
+    },
+    {
+     "word": "realiai?",
+     "start": 65.87,
+     "end": 66.11,
+     "probability": 0.905
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 66.53,
+   "end": 69.69,
+   "text": "Kiek mes išleidome, ne, dabar nežinau, 400 Ba, gal?",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "Kiek",
+     "start": 66.53,
+     "end": 67.01,
+     "probability": 0.877
+    },
+    {
+     "word": "mes",
+     "start": 67.01,
+     "end": 67.11,
+     "probability": 0.997
+    },
+    {
+     "word": "išleidome,",
+     "start": 67.11,
+     "end": 67.67,
+     "probability": 0.994
+    },
+    {
+     "word": "ne,",
+     "start": 67.69,
+     "end": 67.81,
+     "probability": 0.324
+    },
+    {
+     "word": "dabar",
+     "start": 67.81,
+     "end": 68.03,
+     "probability": 0.69
+    },
+    {
+     "word": "nežinau,",
+     "start": 68.03,
+     "end": 68.31,
+     "probability": 0.958
+    },
+    {
+     "word": "400",
+     "start": 68.39,
+     "end": 68.79,
+     "probability": 0.911
+    },
+    {
+     "word": "Ba,",
+     "start": 68.79,
+     "end": 69.37,
+     "probability": 0.301
+    },
+    {
+     "word": "gal?",
+     "start": 69.51,
+     "end": 69.69,
+     "probability": 0.995
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 69.91,
+   "end": 70.75,
+   "text": "400 Ba.",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "400",
+     "start": 69.91,
+     "end": 70.37,
+     "probability": 0.973
+    },
+    {
+     "word": "Ba.",
+     "start": 70.37,
+     "end": 70.75,
+     "probability": 0.967
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 70.89,
+   "end": 73.65,
+   "text": "Tai čia 10 eurų, gal, 12 eurų, kažkas tokio, gal?",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "Tai",
+     "start": 70.89,
+     "end": 71.29,
+     "probability": 0.967
+    },
+    {
+     "word": "čia",
+     "start": 71.29,
+     "end": 71.51,
+     "probability": 0.998
+    },
+    {
+     "word": "10",
+     "start": 71.51,
+     "end": 71.79,
+     "probability": 0.941
+    },
+    {
+     "word": "eurų,",
+     "start": 71.79,
+     "end": 72.13,
+     "probability": 0.871
+    },
+    {
+     "word": "gal,",
+     "start": 72.19,
+     "end": 72.31,
+     "probability": 0.975
+    },
+    {
+     "word": "12",
+     "start": 72.33,
+     "end": 72.51,
+     "probability": 0.989
+    },
+    {
+     "word": "eurų,",
+     "start": 72.51,
+     "end": 72.91,
+     "probability": 0.996
+    },
+    {
+     "word": "kažkas",
+     "start": 72.95,
+     "end": 73.17,
+     "probability": 0.996
+    },
+    {
+     "word": "tokio,",
+     "start": 73.17,
+     "end": 73.45,
+     "probability": 0.974
+    },
+    {
+     "word": "gal?",
+     "start": 73.55,
+     "end": 73.65,
+     "probability": 0.995
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 73.77,
+   "end": 76.37,
+   "text": "12 eurų keturiems asmenimui, ne?",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "12",
+     "start": 73.77,
+     "end": 74.07,
+     "probability": 0.988
+    },
+    {
+     "word": "eurų",
+     "start": 74.07,
+     "end": 74.55,
+     "probability": 0.995
+    },
+    {
+     "word": "keturiems",
+     "start": 74.55,
+     "end": 75.05,
+     "probability": 0.718
+    },
+    {
+     "word": "asmenimui,",
+     "start": 75.05,
+     "end": 76.17,
+     "probability": 0.62
+    },
+    {
+     "word": "ne?",
+     "start": 76.27,
+     "end": 76.37,
+     "probability": 0.914
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 76.39,
+   "end": 78.09,
+   "text": "Nu, pusri, čia dar porą kiaušinių galau.",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "Nu,",
+     "start": 76.39,
+     "end": 76.53,
+     "probability": 0.431
+    },
+    {
+     "word": "pusri,",
+     "start": 76.55,
+     "end": 76.91,
+     "probability": 0.416
+    },
+    {
+     "word": "čia",
+     "start": 76.91,
+     "end": 77.05,
+     "probability": 0.983
+    },
+    {
+     "word": "dar",
+     "start": 77.05,
+     "end": 77.19,
+     "probability": 0.978
+    },
+    {
+     "word": "porą",
+     "start": 77.19,
+     "end": 77.47,
+     "probability": 0.6
+    },
+    {
+     "word": "kiaušinių",
+     "start": 77.47,
+     "end": 77.85,
+     "probability": 0.965
+    },
+    {
+     "word": "galau.",
+     "start": 77.85,
+     "end": 78.09,
+     "probability": 0.69
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 78.19,
+   "end": 78.59,
+   "text": "400 Ba?",
+   "avg_logprob": -0.343,
+   "no_speech_prob": 0.042,
+   "words": [
+    {
+     "word": "400",
+     "start": 78.19,
+     "end": 78.33,
+     "probability": 0.1
+    },
+    {
+     "word": "Ba?",
+     "start": 78.33,
+     "end": 78.59,
+     "probability": 0.932
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 78.59,
+   "end": 80.19,
+   "text": "Nu, prašau mane.",
+   "avg_logprob": -0.325,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Nu,",
+     "start": 78.59,
+     "end": 79.17,
+     "probability": 0.205
+    },
+    {
+     "word": "prašau",
+     "start": 79.31,
+     "end": 79.99,
+     "probability": 0.764
+    },
+    {
+     "word": "mane.",
+     "start": 79.99,
+     "end": 80.19,
+     "probability": 0.605
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 80.33,
+   "end": 82.43,
+   "text": "Na, super, gerai, skanau savo labai.",
+   "avg_logprob": -0.325,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Na,",
+     "start": 80.33,
+     "end": 80.53,
+     "probability": 0.886
+    },
+    {
+     "word": "super,",
+     "start": 80.59,
+     "end": 80.91,
+     "probability": 0.996
+    },
+    {
+     "word": "gerai,",
+     "start": 81.09,
+     "end": 81.57,
+     "probability": 0.985
+    },
+    {
+     "word": "skanau",
+     "start": 81.57,
+     "end": 81.91,
+     "probability": 0.899
+    },
+    {
+     "word": "savo",
+     "start": 81.91,
+     "end": 82.09,
+     "probability": 0.937
+    },
+    {
+     "word": "labai.",
+     "start": 82.09,
+     "end": 82.43,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 82.45,
+   "end": 82.81,
+   "text": "Ačiū.",
+   "avg_logprob": -0.325,
+   "no_speech_prob": 0.001,
+   "words": [
+    {
+     "word": "Ačiū.",
+     "start": 82.45,
+     "end": 82.81,
+     "probability": 0.999
+    }
+   ]
+  }
+ ],
+ "elapsed_s": 163.2
+}
