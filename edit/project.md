@@ -331,3 +331,25 @@ Not changed: "your papaya salad" ("tavo", she is speaking to the person filming)
 **Owner request (during build):** bell + subscribe motion graphic, `SubscribeBell` (23.0–27.0 s). A cursor taps SUBSCRIBE (it becomes SUBSCRIBED ✓), then taps the bell (it rings and turns pink), with synthesized click and bell sounds.
 
 I cannot hear the mix. Levels above are measured only.
+
+## 8. GATE B feedback, round 1 (owner, 2026-10-08)
+
+Owner: "pretty good", plus:
+* **Channel handle is `@indre.Grazuliene`** (YouTube). Replaces @badiesflowers everywhere: watermark, subscribe graphic, end card.
+  (CLAUDE.md section 2 still says @badiesflowers; the owner should update it.)
+* **Music a bit lower** → bed gain -2.6 → **-5.6 dB** (about 15 dB under the voice during speech, the bottom of the house range). Measured gap level: -22.9 → -24.7 dB.
+* **More fun: shine and ring effects, relatable/sarcastic lines, playful comparisons.** Added, each tied to what is on screen or said:
+  | Out time | Moment | Graphic | Sound |
+  |---|---|---|---|
+  | 18.6 s | "third day in a row" | label → "Day 3 of the Same Bowl" | pop |
+  | 35.3 s | "energised, happy, not stuffed" | phone battery "BREAKFAST CHARGE" fills to 100%, "happy · not stuffed" | charge-up |
+  | 41.7 s | sandwich close-up | **hero shine**: light sweeps, glow ring, 26 sparkles | "aah" choir + bell ring + chimes |
+  | 45.4 s | "...but he doesn't" (sauces) | sticker "Sauce? Never." — every kid ever | pop |
+  | 54.3 s | "really, really tasty / bold flavours" | Taste-o-meter, needle swings meh → WOW | swish |
+  | 59.9 s | daughter "almost finished it" | medal badge "Clean Plate Club · our daughter" | bell |
+  | 78.3 s | "400 baht? Well, correct me." | rubber stamp "FACT-CHECKED ✓" slams under the price tag | stamp thud |
+  | 82.1 s | "Thank you!" | pink and white hearts float up | none (the end-card whoosh follows) |
+  The tagline "Happy, Full & Off We Go" was replaced by the battery (the Critic said it only repeated the voice).
+* Style rules learned: **this owner likes playful, meme-style touches** (relatable captions, gauges and meters, stamps, sparkle and hero shots)
+  on top of the postcard look. Keep them tied to real moments and lines from the clip, and keep the money exact.
+* Preview pass 3: 2541 frames = 84.70 s; mastered -14.0 LUFS, true peak -1.3 dBTP; all `check_timeline.py` checks pass.

@@ -1562,14 +1562,14 @@
    "type": "callout",
    "startMs": 18600,
    "endMs": 22050,
-   "text": "Day 3: Yogurt Bowl",
+   "text": "Day 3 of the Same Bowl",
    "anchor": "topLeft"
   },
   {
    "type": "subscribe",
    "startMs": 23000,
    "endMs": 27000,
-   "handle": "@badiesflowers"
+   "handle": "@indre.Grazuliene"
   },
   {
    "type": "callout",
@@ -1579,32 +1579,68 @@
    "anchor": "topLeft"
   },
   {
-   "type": "tagline",
-   "startMs": 36050,
-   "endMs": 39850,
-   "text": "Happy, Full & Off We Go",
-   "anchor": "bottomLeft"
+   "type": "battery",
+   "startMs": 35300,
+   "endMs": 39750,
+   "label": "BREAKFAST CHARGE",
+   "done": "happy · not stuffed"
+  },
+  {
+   "type": "heroShine",
+   "startMs": 41700,
+   "endMs": 44650,
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "radius": 360
   },
   {
    "type": "callout",
-   "startMs": 41950,
-   "endMs": 45450,
+   "startMs": 42250,
+   "endMs": 45150,
    "text": "Son's Chicken Sandwich",
    "anchor": "topLeft"
   },
   {
+   "type": "note",
+   "startMs": 45400,
+   "endMs": 48650,
+   "text": "Sauce? Never.",
+   "by": "— every kid ever"
+  },
+  {
    "type": "callout",
    "startMs": 51450,
-   "endMs": 54650,
+   "endMs": 53950,
    "text": "Papaya Salad",
    "anchor": "topLeft"
   },
   {
-   "type": "callout",
-   "startMs": 60000,
-   "endMs": 61600,
-   "text": "Our Daughter",
-   "anchor": "topLeft"
+   "type": "gauge",
+   "startMs": 54250,
+   "endMs": 57950,
+   "title": "Taste-o-meter",
+   "low": "meh",
+   "high": "WOW"
+  },
+  {
+   "type": "badge",
+   "startMs": 59900,
+   "endMs": 61700,
+   "title": "Clean Plate Club",
+   "subtitle": "our daughter"
+  },
+  {
+   "type": "stamp",
+   "startMs": 78270,
+   "endMs": 80550,
+   "text": "FACT-CHECKED"
+  },
+  {
+   "type": "hearts",
+   "startMs": 82100,
+   "endMs": 83900
   },
   {
    "type": "priceTag",
@@ -1661,6 +1697,12 @@
    "attackMs": 20
   },
   {
+   "src": "sfx/charge.wav",
+   "atMs": 35570,
+   "gainDb": -18,
+   "attackMs": 0
+  },
+  {
    "src": "sfx/pop.wav",
    "atMs": 9600,
    "gainDb": -18,
@@ -1685,8 +1727,14 @@
    "attackMs": 10
   },
   {
+   "src": "sfx/shine.wav",
+   "atMs": 41700,
+   "gainDb": -15,
+   "attackMs": 80
+  },
+  {
    "src": "sfx/pop.wav",
-   "atMs": 42050,
+   "atMs": 45460,
    "gainDb": -18,
    "attackMs": 20
   },
@@ -1695,6 +1743,18 @@
    "atMs": 51550,
    "gainDb": -18,
    "attackMs": 20
+  },
+  {
+   "src": "sfx/swish.wav",
+   "atMs": 54580,
+   "gainDb": -18,
+   "attackMs": 60
+  },
+  {
+   "src": "sfx/bell.wav",
+   "atMs": 60000,
+   "gainDb": -18,
+   "attackMs": 10
   },
   {
    "src": "sfx/kaching.wav",
@@ -1709,6 +1769,12 @@
    "attackMs": 20
   },
   {
+   "src": "sfx/stamp.wav",
+   "atMs": 78400,
+   "gainDb": -14,
+   "attackMs": 10
+  },
+  {
    "src": "sfx/whoosh.wav",
    "atMs": 82700,
    "gainDb": -16,
@@ -1717,17 +1783,17 @@
  ],
  "music": {
   "src": "music/life-of-riley.mp3",
-  "gainDb": -2.6,
+  "gainDb": -5.6,
   "duckDb": -12,
   "fadeOutMs": 1800,
   "credit": "\"Life of Riley\" Kevin MacLeod (incompetech.com), CC BY 4.0"
  },
  "watermark": {
-  "handle": "@badiesflowers"
+  "handle": "@indre.Grazuliene"
  },
  "endCard": {
   "startMs": 82700,
-  "handle": "@badiesflowers",
+  "handle": "@indre.Grazuliene",
   "text": "for more Koh Tao"
  }
 }

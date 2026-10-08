@@ -26,6 +26,13 @@ const graphic = z.discriminatedUnion('type', [
 	z.object({type: z.literal('sideNotes'), ...span, side: z.enum(['left', 'right']), notes: z.array(z.string()).min(1).max(5)}),
 	z.object({type: z.literal('tagline'), ...span, text: z.string(), anchor: z.enum(['bottomRight', 'bottomLeft'])}),
 	z.object({type: z.literal('subscribe'), ...span, handle: z.string()}),
+	z.object({type: z.literal('heroShine'), ...span, focus: z.tuple([z.number(), z.number()]), radius: z.number()}),
+	z.object({type: z.literal('note'), ...span, text: z.string(), by: z.string()}),
+	z.object({type: z.literal('battery'), ...span, label: z.string(), done: z.string()}),
+	z.object({type: z.literal('gauge'), ...span, title: z.string(), low: z.string(), high: z.string()}),
+	z.object({type: z.literal('badge'), ...span, title: z.string(), subtitle: z.string()}),
+	z.object({type: z.literal('stamp'), ...span, text: z.string()}),
+	z.object({type: z.literal('hearts'), ...span}),
 	z.object({type: z.literal('callout'), ...span, text: z.string(), anchor: z.enum(['topLeft', 'topRight'])}),
 	z.object({
 		type: z.literal('priceTag'),

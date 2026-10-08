@@ -14,6 +14,7 @@ import {ProgressBar} from '../components/ProgressBar';
 import {SfxTrack} from '../components/SfxTrack';
 import {SideNotes} from '../components/SideNotes';
 import {SubscribeBell} from '../components/SubscribeBell';
+import {BatteryMeter, HeartsBurst, HeroShine, MedalBadge, NoteSticker, Stamp, TasteMeter} from '../components/Fun';
 import {Tagline} from '../components/Tagline';
 import {Watermark} from '../components/Watermark';
 import {WeatherBadge} from '../components/WeatherBadge';
@@ -40,6 +41,20 @@ const renderGraphic = (g: Graphic, d: number) => {
 			return <MapZoom g={g} durationInFrames={d} />;
 		case 'subscribe':
 			return <SubscribeBell g={g} durationInFrames={d} />;
+		case 'heroShine':
+			return <HeroShine g={g} durationInFrames={d} />;
+		case 'note':
+			return <NoteSticker g={g} durationInFrames={d} />;
+		case 'battery':
+			return <BatteryMeter g={g} durationInFrames={d} />;
+		case 'gauge':
+			return <TasteMeter g={g} durationInFrames={d} />;
+		case 'badge':
+			return <MedalBadge g={g} durationInFrames={d} />;
+		case 'stamp':
+			return <Stamp g={g} durationInFrames={d} />;
+		case 'hearts':
+			return <HeartsBurst g={g} durationInFrames={d} />;
 	}
 };
 
@@ -55,7 +70,7 @@ const Span: React.FC<{startMs: number; endMs: number; name: string; children: (d
 };
 
 // Watermark sits top-left; it steps aside while a top-left graphic is on screen.
-const TOP_LEFT = new Set(['hookTitle', 'postcardTitle', 'callout', 'priceTag', 'mapZoom', 'subscribe']);
+const TOP_LEFT = new Set(['hookTitle', 'postcardTitle', 'callout', 'priceTag', 'mapZoom', 'subscribe', 'note', 'battery', 'gauge', 'badge']);
 const WatermarkLayer: React.FC<{t: Timeline}> = ({t}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();

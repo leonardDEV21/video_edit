@@ -54,4 +54,30 @@ save("click.wav", rng.standard_normal(len(t)) * np.exp(-t * 160) + 0.6 * np.sin(
 t = np.arange(int(1.4 * SR)) / SR
 ding = sum(a * np.sin(2 * np.pi * fr * t) * np.exp(-t * d) for fr, a, d in [(1318.5, 1, 3), (2637, 0.5, 4.5), (3951, 0.25, 6), (1975.5, 0.3, 3.5)])
 save("bell.wav", ding * (1 - np.exp(-t * 400)))
+# "aah" choir chord (C major, vibrato, soft attack) + sparkle chimes: the hero-shot shine.
+t = np.arange(int(1.8 * SR)) / SR
+vib = 1 + 0.006 * np.sin(2 * np.pi * 5.2 * t)
+choir = sum(sum((0.6 ** k) * np.sin(2 * np.pi * f * (k + 1) * np.cumsum(vib) / SR) for k in range(5)) for f in (523.25, 659.25, 783.99, 1046.5))
+choir *= np.clip(t / 0.25, 0, 1) * np.clip((1.8 - t) / 0.6, 0, 1)
+chimes = np.zeros_like(t)
+for k in range(9):
+    st = int(rng.uniform(0.05, 1.2) * SR); f = rng.uniform(3000, 6500)
+    n = len(t) - st; tt = np.arange(n) / SR
+    chimes[st:] += np.sin(2 * np.pi * f * tt) * np.exp(-tt * 12) * 0.5
+ringt = t
+ringb = sum(a * np.sin(2 * np.pi * fr * ringt) * np.exp(-ringt * d) for fr, a, d in [(1760, 1, 2.5), (3520, 0.45, 4), (5280, 0.2, 6)])
+save("shine.wav", choir / np.max(np.abs(choir)) + chimes + 0.9 * ringb)
+
+# charging: rising tone that ends on a bright blip.
+t = np.arange(int(1.5 * SR)) / SR
+f = 300 + 900 * (t / 1.2) ** 2
+f[t > 1.2] = 1600
+tone = np.sin(2 * np.pi * np.cumsum(f) / SR) * (0.4 + 0.6 * (np.sin(2 * np.pi * 14 * t) > 0)) * np.clip(t / 0.05, 0, 1)
+tone[t > 1.2] *= np.exp(-(t[t > 1.2] - 1.2) * 14) * 2
+save("charge.wav", tone * 0.6)
+
+# rubber stamp: low thump plus a paper slap.
+t = np.arange(int(0.4 * SR)) / SR
+thump = np.sin(2 * np.pi * 70 * t) * np.exp(-t * 18) + 0.5 * rng.standard_normal(len(t)) * np.exp(-t * 60)
+save("stamp.wav", thump)
 print(sorted(p.name for p in OUT.iterdir()))

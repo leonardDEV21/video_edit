@@ -169,13 +169,18 @@ graphics = [
      "attribution": "© OpenStreetMap contributors"},
     {"type": "callout", "startMs": out_ms(9.85), "endMs": out_ms(12.1), "text": "Tao Thong Villa 2 · Room 1", "anchor": "topLeft"},
     {"type": "sideNotes", "startMs": out_ms(12.4), "endMs": out_ms(17.9), "side": "left", "notes": ["Turquoise Water", "Island View", "Fresh Fruit Bowls", "Breakfast by the Sea"]},
-    {"type": "callout", "startMs": out_ms(18.95), "endMs": out_ms(22.4), "text": "Day 3: Yogurt Bowl", "anchor": "topLeft"},
-    {"type": "subscribe", "startMs": 23000, "endMs": 27000, "handle": "@badiesflowers"},
+    {"type": "callout", "startMs": out_ms(18.95), "endMs": out_ms(22.4), "text": "Day 3 of the Same Bowl", "anchor": "topLeft"},
+    {"type": "subscribe", "startMs": 23000, "endMs": 27000, "handle": "@indre.Grazuliene"},
     {"type": "callout", "startMs": out_ms(27.85), "endMs": out_ms(31.4), "text": "Dragon Fruit · Banana · Granola", "anchor": "topLeft"},
-    {"type": "tagline", "startMs": out_ms(36.4), "endMs": out_ms(40.2), "text": "Happy, Full & Off We Go", "anchor": "bottomLeft"},
-    {"type": "callout", "startMs": out_ms(42.3), "endMs": out_ms(45.8), "text": "Son's Chicken Sandwich", "anchor": "topLeft"},
-    {"type": "callout", "startMs": out_ms(51.8), "endMs": out_ms(55.0), "text": "Papaya Salad", "anchor": "topLeft"},
-    {"type": "callout", "startMs": 60000, "endMs": 61600, "text": "Our Daughter", "anchor": "topLeft"},
+    {"type": "battery", "startMs": out_ms(35.65), "endMs": out_ms(40.1), "label": "BREAKFAST CHARGE", "done": "happy · not stuffed"},
+    {"type": "heroShine", "startMs": out_ms(42.05), "endMs": out_ms(45.0), "focus": [0.45, 0.6], "radius": 360},
+    {"type": "callout", "startMs": out_ms(42.6), "endMs": out_ms(45.5), "text": "Son's Chicken Sandwich", "anchor": "topLeft"},
+    {"type": "note", "startMs": out_ms(45.75), "endMs": out_ms(49.0), "text": "Sauce? Never.", "by": "— every kid ever"},
+    {"type": "callout", "startMs": out_ms(51.8), "endMs": out_ms(54.3), "text": "Papaya Salad", "anchor": "topLeft"},
+    {"type": "gauge", "startMs": out_ms(54.6), "endMs": out_ms(58.3), "title": "Taste-o-meter", "low": "meh", "high": "WOW"},
+    {"type": "badge", "startMs": 59900, "endMs": 61700, "title": "Clean Plate Club", "subtitle": "our daughter"},
+    {"type": "stamp", "startMs": out_ms(78.62), "endMs": out_ms(80.9), "text": "FACT-CHECKED"},
+    {"type": "hearts", "startMs": out_ms(82.45), "endMs": out_ms(82.45) + 1800},
     {"type": "priceTag", "startMs": out_ms(68.39), "endMs": out_ms(80.1),
      "lines": [
          {"atMs": out_ms(68.39), "text": f"{MONEY['billThb']} baht", "style": "big"},
@@ -190,14 +195,19 @@ sfx = [
     {"src": "sfx/swish.wav", "atMs": 1650 + 400, "gainDb": -20, "attackMs": 60},
     {"src": "sfx/whoosh.wav", "atMs": MAP[0], "gainDb": -16, "attackMs": 120},
     {"src": "sfx/pop.wav", "atMs": MAP[1] - 1200, "gainDb": -15, "attackMs": 20},
+    {"src": "sfx/charge.wav", "atMs": out_ms(35.65) + 270, "gainDb": -18, "attackMs": 0},
     {"src": "sfx/pop.wav", "atMs": out_ms(9.85) + 100, "gainDb": -18, "attackMs": 20},
     {"src": "sfx/pop.wav", "atMs": out_ms(18.95) + 100, "gainDb": -18, "attackMs": 20},
     {"src": "sfx/click.wav", "atMs": 23000 + 1000, "gainDb": -14, "attackMs": 10},
     {"src": "sfx/bell.wav", "atMs": 23000 + 2600, "gainDb": -15, "attackMs": 10},
-    {"src": "sfx/pop.wav", "atMs": out_ms(42.3) + 100, "gainDb": -18, "attackMs": 20},
+    {"src": "sfx/shine.wav", "atMs": out_ms(42.05), "gainDb": -15, "attackMs": 80},
+    {"src": "sfx/pop.wav", "atMs": out_ms(45.75) + 60, "gainDb": -18, "attackMs": 20},
     {"src": "sfx/pop.wav", "atMs": out_ms(51.8) + 100, "gainDb": -18, "attackMs": 20},
+    {"src": "sfx/swish.wav", "atMs": out_ms(54.6) + 330, "gainDb": -18, "attackMs": 60},
+    {"src": "sfx/bell.wav", "atMs": 59900 + 100, "gainDb": -18, "attackMs": 10},
     {"src": "sfx/kaching.wav", "atMs": out_ms(68.39) + 100, "gainDb": -16, "attackMs": 30},
     {"src": "sfx/pop.wav", "atMs": out_ms(76.45) + 100, "gainDb": -17, "attackMs": 20},
+    {"src": "sfx/stamp.wav", "atMs": out_ms(78.62) + 130, "gainDb": -14, "attackMs": 10},
     {"src": "sfx/whoosh.wav", "atMs": CUT_MS, "gainDb": -16, "attackMs": 120},
 ]
 
@@ -215,9 +225,9 @@ timeline = {
     "sfx": sfx,
     # Bed B (owner can switch to "music/island-meet-and-greet.mp3", gainDb -6.5).
     # gainDb: level between phrases; duckDb: extra cut under speech, so music sits ~12 dB under the voice.
-    "music": {"src": "music/life-of-riley.mp3", "gainDb": -2.6, "duckDb": -12, "fadeOutMs": 1800, "credit": "\"Life of Riley\" Kevin MacLeod (incompetech.com), CC BY 4.0"},
-    "watermark": {"handle": "@badiesflowers"},
-    "endCard": {"startMs": CUT_MS, "handle": "@badiesflowers", "text": "for more Koh Tao"},
+    "music": {"src": "music/life-of-riley.mp3", "gainDb": -5.6, "duckDb": -12, "fadeOutMs": 1800, "credit": "\"Life of Riley\" Kevin MacLeod (incompetech.com), CC BY 4.0"},
+    "watermark": {"handle": "@indre.Grazuliene"},
+    "endCard": {"startMs": CUT_MS, "handle": "@indre.Grazuliene", "text": "for more Koh Tao"},
 }
 
 (ROOT / "edit/timeline.json").write_text(json.dumps(timeline, ensure_ascii=False, indent=1))
