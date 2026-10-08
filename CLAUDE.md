@@ -24,9 +24,10 @@ sound effect and add on is rendered in ONE Remotion pass, driven by ONE data fil
 
 * Channel handle: @badiesflowers (watermark and subscribe end card)
 * Primary color: `#FFFFFF` with a soft dark shadow (text on photos)
-* Accent color (active caption word, highlights): `#F78EBD` pink, used as a brush
-  stroke behind labels, for hearts and the active caption word.
-  Dark text `#1E1E24` sits on pink and on frosted patches. `#FFC93C` sun yellow on the weather icon only
+* Caption colors: words white `#FFFFFF` with a black outline; the active (spoken)
+  word is yellow `#FFD400`. Yellow is reserved for captions and the sun icon.
+* Graphics accent: `#F78EBD` pink, used as a brush stroke behind labels and for hearts.
+  Dark text `#1E1E24` sits on pink and on frosted patches.
 * Heading font: script, `Great Vibes` (or `Allura`) from Google Fonts
 * Handwritten notes font: `Caveat`
 * Caption font: bold sans, `Montserrat` 800
@@ -78,7 +79,8 @@ Each one owns one component or one track. All of them read `timeline.json`.
 **Phase 5. Verify.** Run every check in section 10. Fix, render again, check again.
 Maximum 3 passes, then report what is still wrong.
 
-**Phase 6. Preview (GATE B).** Render a 720p preview. Show it with the check report.
+**Phase 6. Preview (GATE B).** Render a 720p preview and the thumbnail drafts
+(section 6b). Show them with the check report.
 Apply feedback as edits to `timeline.json`. Render finals only after approval.
 Master every final with two pass `loudnorm` (targets in section 10), then re-measure.
 
@@ -180,6 +182,19 @@ at least 2 seconds, then let it fade out while the karaoke captions take over.
 In 1080x1920 keep it inside the safe areas (section 8). All text is English;
 the notes are written to match what is on screen, not invented.
 
+## 6b. Thumbnail and cover
+
+Every video gets a cover in the postcard style (section 6a): 1280x720 for the YouTube
+version, 1080x1920 for each Short. Render it as a Remotion still (`renderStill`) from
+the same `timeline.json`, so the opening and the cover match.
+
+1. Pick 3 candidate frames from the cut: subject sharp and in the clear middle, eyes
+   open, mouth closed, bright scenery. Show them as stills, owner picks one.
+2. The title is the place name, 1 to 3 words. Readable at phone thumbnail size:
+   check a copy scaled down to 320px wide.
+3. Do not cover the face. Keep the bottom right corner free (platform duration badge).
+4. Write to `out/thumb-long.jpg`, `out/thumb-short-1.jpg` and so on.
+
 ## 7. Captions: Lithuanian speech, English karaoke
 
 English words have no audio timestamps of their own. Do this:
@@ -194,8 +209,8 @@ English words have no audio timestamps of their own. Do this:
 5. List every word you were unsure of (names, slang, low confidence) in the report.
 
 Style: 2 to 3 words per page, bold, high contrast with outline or shadow.
-Active word takes the accent color and a small scale pop. Emphasis words stay
-colored after being spoken. Never more than 2 lines.
+Words are white with a black outline. The active word turns yellow `#FFD400` with
+a small scale pop. Emphasis words stay yellow after being spoken. Never more than 2 lines.
 
 ## 8. Craft rules
 
