@@ -280,3 +280,54 @@ Readability will be checked on a 320 px wide copy. Output: `out/thumb-short-1.jp
   Plan revised to rev 2.
 * 2026-10-08: the owner corrected the date to **7 October** (30°C). The price rate is now the ECB rate of 7 Oct (37.661 THB/EUR). Thumbnail stills shown; the owner picked 15.0 s, dressed in the postcard style.
 * Style rule learned: this owner prefers keeping the full talk; get energy from graphics, zooms and music, not cuts.
+
+## 6. Build log (after GATE A approval, 2026-10-08)
+
+* **Approved** by the owner ("lets try approved") with the rule: *math and conversions must always be correct*.
+  Music and map were not answered; defaults taken: bed B and the map insert.
+* **Cut** (`edit/cut.mp4`, `edit/edl.json`): one segment, source 0.35–83.0 s (owner: no skipping).
+  HLG → SDR BT.709 (zscale + hable), light grade (sat 1.12, contrast 1.04, gamma 1.02), 30 fps, 2481 frames = 82.70 s.
+  The footage is one continuous take: scene detection finds no hard cuts.
+* **Money**: computed only in `scripts/build_timeline.py` from 400 THB and the ECB rate of 7 Oct 2026
+  (1 EUR = 37.661 THB): €10.62 for 4, €2.66 (100 THB) each. `scripts/check_timeline.py` recomputes the values
+  and fails the build if any graphic shows a euro or baht figure that does not match.
+* **Fonts**: the bundled Montserrat, Caveat and Great Vibes have no `฿` or `≈` glyphs, so the graphics say "400 baht" and "about €…". The check blocks both characters.
+* **Music**: bed B, "Life of Riley" by Kevin MacLeod (incompetech.com), **CC BY 4.0**. Attribution is required in the post description:
+  `Music: "Life of Riley" Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0`.
+  Bed A ("Island Meet and Greet", same licence) is ready as the alternative.
+  Measured: voice -20.5 LUFS, bed B -17.9 LUFS, bed A -14.0 LUFS. Bed gain is -2.6 dB, ducked a further 12 dB under speech.
+* **SFX**: synthesized in `scripts/make_sfx.py` (whoosh, swish, pop, ka-ching); no third-party samples.
+* **Map**: OSM tile renders at zooms 7, 9, 10, 12, 13, 15 and 16, centred on 10.06935 N, 99.81694 E, with the "© OpenStreetMap contributors" credit on screen.
+* **Remotion** project at the repo root: `src/compositions/Short.tsx` and `Cover.tsx`, components in `src/components/`.
+  Reused from `demo/`: BaseVideo (extended with the end-card freeze), KaraokeCaptions (page rules improved), PostcardTitle,
+  WeatherBadge (moved left, off the face), SideNotes, Tagline (moved up over the sea), BrushStroke, Doodles.
+  New: HookTitle, Callout, PriceTag, MapZoom, BRoll, ProgressBar, Watermark, EndCard, SfxTrack, MusicBed.
+* **Gotchas**: `--scale=0.6667` fails, because 1920 × 0.6667 is not an integer, so the preview renders at 1080 and is downscaled with ffmpeg.
+  `<Freeze>` around an OffthreadVideo in a 1-frame still rendered the wrong frame; the cover uses `trimBefore` instead.
+
+## 7. Verification report (Phase 5) — preview pass 2
+
+| Check | Result |
+|---|---|
+| ffprobe | 1080x1920, 30 fps, 2541 frames = **84.70 s** = timeline `durationMs` 84700 (cut 82.70 s + end card 2.0 s) |
+| Loudness (mastered, two-pass loudnorm) | **-14.0 LUFS** integrated, true peak **-1.3 dBTP** (targets -14 / ≤ -1); before mastering -20.6 LUFS, -0.7 dBTP |
+| Money | `check_timeline.py` recomputes it: 400 THB / 37.661 = **€10.62 for 4**, 100 THB = **€2.66 each**; every on-screen figure matches |
+| Caption sync | 10 sampled pages, all inside their spoken phrase window; 83 pages, max 2 lines |
+| Stills | 41 event stills (pass 1), plus 12 and 7 targeted stills after the fixes: no overflow, no face covered, text inside the safe areas |
+| Music in mix | Speech gap at 5.8 s: -28.6 dB voice only, -22.9 dB with music; under speech the voice stays on top |
+
+**Critic (pass 1) top issues and what was done:**
+1. The end card covered her face → moved to the upper-left sky; the last frame now pushes in slowly and the music carries to the end.
+2. Loudness → mastered to -14 LUFS (the -2.6 dB music gain is intended: the bed is quiet and ducked 12 dB under speech).
+3. The spoken "12 euros" contradicted the tag's €10.62 → the euro lines now appear after "12 euros for four people", introduced as "Real rate on 7 Oct:".
+4. The price tag reached her hair → smaller, starts at y 268, all lines above her head.
+5. The frozen, silent 2 s tail → end card is 2.0 s, with a push-in and music under it.
+6. The replay B-roll hid footage → removed (the owner asked for the whole video).
+7. Pacing gaps → added "Dragon Fruit · Banana · Granola" (27.5 s), the subscribe + bell graphic (23–27 s, owner request) and "Our Daughter" (60 s).
+8. One-word caption pages → page rules now balance pages 2+2 and only break at a comma when 2 or more words follow. Only "Honestly?" (a one-word sentence) remains.
+9. Captions raised 30 px. 10. The hook ends before the postcard title starts. 11. The map's "Koh Tao" label is bigger and holds longer; the final pin holds about 1.3 s. 12. The watermark has a stronger shadow and hides while any top-left graphic is up.
+Not changed: "your papaya salad" ("tavo", she is speaking to the person filming) and the progress bar at the top edge (not text).
+
+**Owner request (during build):** bell + subscribe motion graphic, `SubscribeBell` (23.0–27.0 s). A cursor taps SUBSCRIBE (it becomes SUBSCRIBED ✓), then taps the bell (it rings and turns pink), with synthesized click and bell sounds.
+
+I cannot hear the mix. Levels above are measured only.

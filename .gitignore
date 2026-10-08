@@ -8,3 +8,8 @@ verify/
 *.wav
 *.mp3
 node_modules/
+public/cut.mp4
+public/broll/
+public/music/
+public/sfx/*.wav
+public/map/*.jpg
