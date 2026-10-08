@@ -1,0 +1,10 @@
+.env
+raw/
+edit/
+out/
+verify/
+*.mp4
+*.mov
+*.wav
+*.mp3
+node_modules/
