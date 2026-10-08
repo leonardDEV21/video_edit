@@ -24,7 +24,9 @@ sound effect and add on is rendered in ONE Remotion pass, driven by ONE data fil
 
 * Channel handle: @badiesflowers (watermark and subscribe end card)
 * Primary color: `#FFFFFF` with a soft dark shadow (text on photos)
-* Accent color (active caption word, highlights): `#1F3A5F` navy (location box, active word); second accent `#FFC93C` sun yellow (weather icon only)
+* Accent color (active caption word, highlights): `#F78EBD` pink, used as a brush
+  stroke behind labels, for hearts and the active caption word.
+  Dark text `#1E1E24` sits on pink and on frosted patches. `#FFC93C` sun yellow on the weather icon only
 * Heading font: script, `Great Vibes` (or `Allura`) from Google Fonts
 * Handwritten notes font: `Caveat`
 * Caption font: bold sans, `Montserrat` 800
@@ -154,19 +156,26 @@ thirds, watermark, ducking). Build only what is missing, and list which is which
 The default opening look for travel videos. Built from the reference the owner chose:
 
 * **PostcardTitle** (top center): place name in the script font, large, white, tilted
-  about -6 degrees, soft shadow. A small doodle (palm, wave, sun) next to it.
-  Under it, the island name in the script font on a navy rounded box, then the
-  country in small spaced caps with a flag.
-* **WeatherBadge** (top right): date in the script font, sun icon in yellow, temperature
-  in bold sans (`32°C`). Ask the owner for date and temperature; never guess them.
-* **SideNotes** (one edge, usually left): 3 to 5 short handwritten lines in `Caveat`,
-  white, each ending with a small outlined heart. They write in one by one,
-  300 to 400ms apart, as if handwritten (stroke reveal or fast mask wipe).
-* **Tagline** (bottom right): one short handwritten phrase, slightly rotated.
-* **Doodle**: thin white line drawings (palm, heart, sun, waves) drawn on with a path reveal.
+  about -6 degrees, soft shadow. A small pink outlined heart and a white palm doodle
+  next to it. Under it, the island name in a dark handwritten font on a pink
+  brush stroke (rough edges, not a rounded box), then the country in small spaced
+  white caps with a flag.
+* **WeatherBadge** (top right): date in dark handwritten text on a pink brush stroke,
+  yellow sun icon, temperature in bold white sans (`32°C`) with a short pink
+  underline stroke. Ask the owner for date and temperature; never guess them.
+* **SideNotes** (one edge, usually left): 3 to 5 short handwritten lines in dark text
+  on soft frosted white patches (white about 60% opacity, blurred edges), each ending
+  with a small outlined heart. They write in one by one, 300 to 400ms apart, as if
+  handwritten (stroke reveal or fast mask wipe). A note over plain sky or water
+  can be white with no patch, like "Tropical Paradise".
+* **Tagline** (bottom right): one short handwritten phrase in dark text, slightly
+  rotated, with a heart and a short line under it.
+* **Doodle**: thin line drawings (palm, heart, sun, waves) drawn on with a path reveal;
+  white or dark depending on the background, hearts may be pink.
 
 Rules: the person stays in the clear middle; notes sit only over sky, sea or sand.
-Everything white plus one navy box, yellow only on the sun. Hold the full postcard
+Palette: white, dark text, pink brush strokes and hearts, yellow only on the sun.
+The brush strokes animate in by wiping left to right before their text appears. Hold the full postcard
 at least 2 seconds, then let it fade out while the karaoke captions take over.
 In 1080x1920 keep it inside the safe areas (section 8). All text is English;
 the notes are written to match what is on screen, not invented.
