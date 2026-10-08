@@ -51,8 +51,8 @@ orange cushion on the right side of the frame; the sea and island fill the left 
 ## 1b. Prices
 
 They paid **400 baht** for breakfast for four.
-* Rate: ECB reference rate on 8 Oct 2026 via frankfurter.dev, **1 EUR = 37.68 THB** (1 THB = €0.0265).
-* **400 THB ≈ €10.60 for 4, so 100 THB ≈ €2.65 per person.**
+* Rate: ECB reference rate on the shoot day, 7 Oct 2026 (via frankfurter.dev): **1 EUR = 37.661 THB**.
+* **400 THB ≈ €10.62 for 4, so 100 THB ≈ €2.66 per person.**
 * In the video they guess "10 euros, maybe 12". The captions keep their words; the price graphic shows the real conversion.
 
 ## 2. What the video is about
@@ -64,7 +64,7 @@ papajos salotas, ir paskaičiuoja, kiek kainavo: apie 400 batų, tai yra 10–12
 **EN:** A family eats breakfast at a beach restaurant on Koh Tao, Thailand, looking out over turquoise
 water and a small island. They show the fruit, granola and yogurt bowl they have ordered three days
 running, their son's chicken sandwich and a papaya salad, then work out the bill: about 400 baht,
-about €10.60 for four people.
+about €10.62 for four people.
 
 ## 3. Full transcript and translation
 
@@ -117,7 +117,7 @@ Times are source seconds. = proposed for removal (section 4).
 * **galau** (77.9 s): maybe "gavau" (I got) or "gale" (at the end). English: "plus a couple of eggs".
 * **prašau mane** (79.3 s): maybe "pataisykit mane" (correct me).
 * **skanau savo** (81.6 s): read as "skanu, labai" (very tasty).
-* **Prices:** 400 baht ≈ €10.60 (section 1b); they say "10, maybe 12 euros". Captions keep their words; the graphic shows the real rate.
+* **Prices:** 400 baht ≈ €10.62 (section 1b); they say "10, maybe 12 euros". Captions keep their words; the graphic shows the real rate.
 
 ## 4. GATE A plan
 
@@ -187,8 +187,7 @@ Planned spots: "Koh Tao", "beautiful", "third day", "fresh fruit", "dragon fruit
 
 * **PostcardTitle** (top centre, 1.6–6.0 s): script **"Koh Tao"** with a pink heart and a palm doodle,
   pink brush stroke **"Tao Thong Villa 2"**, then **THAILAND 🇹🇭**.
-* **WeatherBadge** (top right, 2.0–6.0 s): **"September 10"** on a pink stroke, yellow sun, **30°C**.
-  The owner wrote "9/10"; I read it as 10 September because 9 October is still in the future. Please confirm.
+* **WeatherBadge** (top right, 2.0–6.0 s): **"October 7"** on a pink stroke, yellow sun, **30°C** (owner confirmed).
 * **SideNotes** (left edge, over sea and sky, 12.0–17.5 s, 350 ms apart):
   "Turquoise Water ♡", "Island View ♡", "Fresh Fruit Bowls ♡", "Breakfast by the Sea ♡".
 * **Tagline** (bottom right, 36.0–40.0 s): "Happy, Full & Off We Go ♡".
@@ -196,9 +195,9 @@ Planned spots: "Koh Tao", "beautiful", "third day", "fresh fruit", "dragon fruit
   "Son's Chicken Sandwich" (42.0 s), "Papaya Salad" (51.5 s).
 * **Price tag** (`Callout`):
   * "400 ฿" pops in at 68.4 s ("400 baht").
-  * "≈ €10.60 for 4" builds at 72.3 s.
-  * "≈ €2.65 each" appears at 75.0 s ("for four people").
-  * The rate (1 EUR = 37.68 THB, 8 Oct 2026) goes in the project notes, not on screen.
+  * "≈ €10.62 for 4" builds at 72.3 s.
+  * "≈ €2.66 each" appears at 75.0 s ("for four people").
+  * The rate (1 EUR = 37.661 THB, ECB, 7 Oct 2026) goes in the project notes, not on screen.
 * **Watermark** "@badiesflowers", **ProgressBar** and **EndCard** "Follow @badiesflowers for more Koh Tao".
 * All text stays inside the 9:16 safe areas; the notes go left, away from her face.
 
@@ -242,7 +241,7 @@ Full English caption text:
 ### 4.9 Sound
 
 * **Effects** (about 11): whoosh on the hook, brush swish on the postcard stroke, whoosh into the map, pop on the map pin,
-  4 label pops, "ka-ching" on "400 ฿", pop on "≈ €10.60", whoosh into the end card. Each sits about -14 to -18 dB below the voice.
+  4 label pops, "ka-ching" on "400 ฿", pop on "≈ €10.62", whoosh into the end card. Each sits about -14 to -18 dB below the voice.
 * **Music:** two options. A is sunny acoustic or ukulele at about 105 BPM. B is upbeat tropical house at about 120 BPM, which I recommend for "energetic".
   The bed is ducked about 13 dB under speech, sits at about -22 dB and fades out before the end-card CTA. It needs a licence-safe track.
 * **Master:** two-pass loudnorm to -14 LUFS, true peak ≤ -1 dBTP (source is -20.5 LUFS, peak -0.7).
@@ -250,7 +249,7 @@ Full English caption text:
 
 ### 4.10 Thumbnail candidates
 
-1. **2.0 s:** smiling at the camera, centred, with sea and island.
+1. **2.0 s:** looking at the camera, with sea and island. Her mouth is open mid-word; a nearby frame with the mouth closed can be found if this one wins.
 2. **15.0 s:** wide shot of the deck, island and turquoise water.
 3. **20.5 s:** the yogurt bowl over the sea.
 
@@ -259,16 +258,15 @@ Cover: script "Koh Tao" with "Breakfast for 4 = 400 ฿" on a pink stroke.
 ### 4.11 Assumptions
 
 * The whole video is kept ("show all video, no skipping"), with trims only of silence at the very start and end.
-* The date is 10 September (from "9/10"), and the temperature 30°C.
+* The date is 7 October 2026 and the temperature 30°C (owner confirmed).
 * Four people: two adults, a daughter (in frame at 60 s) and a son (not in frame).
-* The price graphic uses the ECB rate of 8 Oct 2026; on the day itself the rate may have differed slightly.
+* The price graphic uses the ECB rate of the shoot day (7 Oct 2026).
 
 ### 4.12 Open questions for the owner
 
-1. Is "9/10" **10 September** (as assumed) or 9 October?
-2. Music A or B, and do you have a track or a library?
-3. Which thumbnail frame: 2.0 s, 15.0 s or 20.5 s?
-4. Is the map insert at "show them where we are" OK (3.4 s fullscreen, voice continues)?
+1. Music A or B, and do you have a track or a library?
+2. Which thumbnail frame: 2.0 s, 15.0 s or 20.5 s? (Stills are in `verify/thumbs/`.)
+3. Is the map insert at "show them where we are" OK (3.4 s fullscreen, voice continues)?
 
 ## 5. Decisions log
 
@@ -276,4 +274,5 @@ Cover: script "Koh Tao" with "Breakfast for 4 = 400 ฿" on a pink stroke.
 * 2026-10-08, owner answers: the venue is Tao Thong Villa 2 (confirmed on OSM, 10.06935 N, 99.81694 E); add a map visual;
   show prices in baht and EUR; date "9/10", 30°C; "he" = son, not in frame; **show the whole video, no skipping**.
   Plan revised to rev 2.
+* 2026-10-08: the owner corrected the date to **7 October** (30°C). The price rate is now the ECB rate of 7 Oct (37.661 THB/EUR). Thumbnail stills shown.
 * Style rule learned: this owner prefers keeping the full talk; get energy from graphics, zooms and music, not cuts.
