@@ -23,11 +23,13 @@ sound effect and add on is rendered in ONE Remotion pass, driven by ONE data fil
 ## 2. Brand (owner fills this in once)
 
 * Channel handle: @badiesflowers (watermark and subscribe end card)
-* Primary color: `TODO`
-* Accent color (active caption word, highlights): `TODO`
-* Heading font: `TODO`
-* Caption font: `TODO`
-* Energy level: `TODO` (calm / medium / high)
+* Primary color: `#FFFFFF` with a soft dark shadow (text on photos)
+* Accent color (active caption word, highlights): `#1F3A5F` navy (location box, active word); second accent `#FFC93C` sun yellow (weather icon only)
+* Heading font: script, `Great Vibes` (or `Allura`) from Google Fonts
+* Handwritten notes font: `Caveat`
+* Caption font: bold sans, `Montserrat` 800
+* Energy level: `medium` (warm, relaxed travel feel, not hype)
+* Reference look: "Crystal Beach" travel postcard (section 6a).
 * Source language: Lithuanian. Caption language: English.
 
 If any TODO is still unset, propose values in the plan and wait for approval.
@@ -104,7 +106,11 @@ All times in milliseconds on the output timeline.
     { "type": "hookTitle", "startMs": 0, "endMs": 2000, "text": "..." },
     { "type": "lowerThird", "startMs": 4200, "endMs": 7400, "title": "...", "subtitle": "..." },
     { "type": "callout", "startMs": 12100, "endMs": 14600, "text": "...", "anchor": "topRight" },
-    { "type": "sticker", "startMs": 15000, "endMs": 16200, "asset": "arrow.png", "at": [0.7, 0.3] }
+    { "type": "sticker", "startMs": 15000, "endMs": 16200, "asset": "arrow.png", "at": [0.7, 0.3] },
+    { "type": "postcardTitle", "startMs": 0, "endMs": 3500, "title": "Crystal Beach", "place": "Koh Samui", "country": "THAILAND", "flag": "TH" },
+    { "type": "weatherBadge", "startMs": 300, "endMs": 3500, "date": "October 1", "tempC": 32, "icon": "sun" },
+    { "type": "sideNotes", "startMs": 800, "endMs": 6000, "side": "left", "notes": ["Turquoise Water", "White Sand", "Beautiful Rocks", "Good Vibes Only"] },
+    { "type": "tagline", "startMs": 4000, "endMs": 7000, "text": "Life is Better in Thailand", "anchor": "bottomRight" }
   ],
   "broll": [
     { "src": "broll/shot1.mp4", "startMs": 20000, "endMs": 23000, "mode": "fullscreen" }
@@ -135,12 +141,35 @@ thirds, watermark, ducking). Build only what is missing, and list which is which
 * `BaseVideo`: plays the cut, applies zooms as scale and translate on the video layer.
 * `KaraokeCaptions`: pages of 2 to 3 words, active word highlighted.
 * `HookTitle`: big text for the first 2 seconds.
+* `PostcardTitle`, `WeatherBadge`, `SideNotes`, `Tagline`, `Doodle`: the travel postcard set (section 6a).
 * `LowerThird`, `Callout`, `Sticker`: signs and labels.
 * `BRoll`: fullscreen or picture in picture inserts.
 * `ProgressBar`: thin retention bar (Short only).
 * `Watermark`: channel handle, low opacity, fixed corner.
 * `EndCard`: subscribe call to action with the handle.
 * `SfxTrack`, `MusicBed`: audio layers with gain and ducking.
+
+## 6a. Travel postcard style (reference: "Crystal Beach")
+
+The default opening look for travel videos. Built from the reference the owner chose:
+
+* **PostcardTitle** (top center): place name in the script font, large, white, tilted
+  about -6 degrees, soft shadow. A small doodle (palm, wave, sun) next to it.
+  Under it, the island name in the script font on a navy rounded box, then the
+  country in small spaced caps with a flag.
+* **WeatherBadge** (top right): date in the script font, sun icon in yellow, temperature
+  in bold sans (`32°C`). Ask the owner for date and temperature; never guess them.
+* **SideNotes** (one edge, usually left): 3 to 5 short handwritten lines in `Caveat`,
+  white, each ending with a small outlined heart. They write in one by one,
+  300 to 400ms apart, as if handwritten (stroke reveal or fast mask wipe).
+* **Tagline** (bottom right): one short handwritten phrase, slightly rotated.
+* **Doodle**: thin white line drawings (palm, heart, sun, waves) drawn on with a path reveal.
+
+Rules: the person stays in the clear middle; notes sit only over sky, sea or sand.
+Everything white plus one navy box, yellow only on the sun. Hold the full postcard
+at least 2 seconds, then let it fade out while the karaoke captions take over.
+In 1080x1920 keep it inside the safe areas (section 8). All text is English;
+the notes are written to match what is on screen, not invented.
 
 ## 7. Captions: Lithuanian speech, English karaoke
 
