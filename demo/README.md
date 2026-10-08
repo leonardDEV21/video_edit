@@ -3,9 +3,11 @@
 A 10 second, 1080x1920 Remotion demo of the look described in `../CLAUDE.md`
 sections 6a, 6b and 7. Everything is driven by `timeline.json`.
 
-The background is a drawn stand-in beach. For real footage, put the cut in
-`public/cut.mp4` and replace `<BeachBackground />` in `src/Postcard.tsx` with
-`<OffthreadVideo src={staticFile('cut.mp4')} />`.
+The background is set in `timeline.json`:
+
+* photo: put it in `public/photos/` and set `"background": { "type": "image", "src": "photos/beach.jpg" }`
+* video: put the cut in `public/` and set `"background": { "type": "video", "src": "cut.mp4" }`
+* `{ "type": "drawn" }` is the drawn stand-in beach used when no footage is available.
 
 ```bash
 npm install

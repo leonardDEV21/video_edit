@@ -1,6 +1,7 @@
 {
   "fps": 30,
   "durationMs": 10000,
+  "background": { "type": "drawn" },
   "captions": [
     { "text": "Welcome", "startMs": 600, "endMs": 900, "emphasis": false },
     { "text": "to", "startMs": 900, "endMs": 1020, "emphasis": false },

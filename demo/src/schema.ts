@@ -47,9 +47,17 @@ const graphic = z.discriminatedUnion('type', [
 	}),
 ]);
 
+// What sits under the graphics: a photo, the cut video, or the drawn stand-in beach.
+// `src` is a path inside public/, e.g. "photos/crystal-beach.jpg" or "cut.mp4".
+const background = z.object({
+	type: z.enum(['image', 'video', 'drawn']),
+	src: z.string().optional(),
+});
+
 export const timelineSchema = z.object({
 	fps: z.number(),
 	durationMs: z.number(),
+	background,
 	captions: z.array(caption),
 	zooms: z.array(zoom),
 	graphics: z.array(graphic),

@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Img, OffthreadVideo, Sequence, staticFile, useVideoConfig} from 'remotion';
 import {BaseVideo} from './components/BaseVideo';
 import {BeachBackground} from './components/BeachBackground';
 import {KaraokeCaptions} from './components/KaraokeCaptions';
@@ -23,12 +23,23 @@ const renderGraphic = (g: Graphic, durationInFrames: number) => {
 	}
 };
 
-export const Postcard: React.FC<Timeline & {showCaptions?: boolean}> = ({captions, zooms, graphics, showCaptions = true}) => {
+const Background: React.FC<{bg: Timeline['background']}> = ({bg}) => {
+	const fill = {width: '100%', height: '100%', objectFit: 'cover'} as const;
+	if (bg.type === 'image' && bg.src) {
+		return <Img src={staticFile(bg.src)} style={fill} />;
+	}
+	if (bg.type === 'video' && bg.src) {
+		return <OffthreadVideo src={staticFile(bg.src)} style={fill} />;
+	}
+	return <BeachBackground />;
+};
+
+export const Postcard: React.FC<Timeline & {showCaptions?: boolean}> = ({background, captions, zooms, graphics, showCaptions = true}) => {
 	const {fps} = useVideoConfig();
 	return (
 		<AbsoluteFill style={{backgroundColor: '#000', overflow: 'hidden'}}>
 			<BaseVideo zooms={zooms}>
-				<BeachBackground />
+				<Background bg={background} />
 			</BaseVideo>
 			{graphics.map((g, i) => {
 				const from = msToFrame(g.startMs, fps);
