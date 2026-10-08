@@ -132,7 +132,7 @@ Installed in this container: **no** video-use, Remotion or editor-pro-max skills
 * Remotion: the repo's own `demo/` project already has `BaseVideo` (zooms), `KaraokeCaptions`,
   `PostcardTitle`, `WeatherBadge`, `SideNotes`, `Tagline`, `BrushStroke`, `Doodles`, plus bundled fonts
   (Great Vibes, Caveat, Montserrat). These get reused.
-* **To build:** `HookTitle`, `Callout` (dish labels and price tag), `BRoll` (cutaways from the same
+* **To build:** `HookTitle`, `MapZoom`, `Callout` (dish labels and price tag), `BRoll` (cutaways from the same
   source), `ProgressBar`, `Watermark`, `EndCard`, `SfxTrack`, `MusicBed`, the `Short` composition and its zod schema.
 
 ### 4.2 Outputs
