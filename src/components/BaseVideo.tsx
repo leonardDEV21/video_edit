@@ -5,8 +5,8 @@ import {msToFrame} from '../theme';
 
 // Plays the cut and applies zooms (scale + origin) to it. Snap = instant spring on the word,
 // push = slow eased push in. Each zoom eases back out over its last 6 frames.
-// After the cut ends (end card), the last frame is held.
-export const BaseVideo: React.FC<{src: string; cutMs: number; zooms: Zoom[]}> = ({src, cutMs, zooms}) => {
+// After the cut ends (end card), the frame at holdMs is held.
+export const BaseVideo: React.FC<{src: string; cutMs: number; zooms: Zoom[]; holdMs: number; holdFocus: [number, number]}> = ({src, cutMs, zooms, holdMs, holdFocus}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	const cutFrames = msToFrame(cutMs, fps);
@@ -27,13 +27,13 @@ export const BaseVideo: React.FC<{src: string; cutMs: number; zooms: Zoom[]}> = 
 	if (frame >= cutFrames) {
 		// End card: slow push on the held last frame so the picture never sits dead still.
 		scale = interpolate(frame, [cutFrames, cutFrames + 2 * fps], [1, 1.06], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.sin)});
-		origin = '35% 30%';
+		origin = `${holdFocus[0] * 100}% ${holdFocus[1] * 100}%`;
 	}
 	const fill = {width: '100%', height: '100%', objectFit: 'cover'} as const;
 	const video = <OffthreadVideo src={staticFile(src)} style={fill} />;
 	return (
 		<div style={{position: 'absolute', inset: 0, transform: `scale(${scale})`, transformOrigin: origin}}>
-			{frame < cutFrames ? video : <Freeze frame={cutFrames - 1}>{video}</Freeze>}
+			{frame < cutFrames ? video : <Freeze frame={Math.min(cutFrames - 1, msToFrame(holdMs, fps))}>{video}</Freeze>}
 		</div>
 	);
 };

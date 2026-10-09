@@ -227,7 +227,7 @@ timeline = {
     # gainDb: level between phrases; duckDb: extra cut under speech, so music sits ~12 dB under the voice.
     "music": {"src": "music/life-of-riley.mp3", "gainDb": -5.6, "duckDb": -12, "fadeOutMs": 1800, "credit": "\"Life of Riley\" Kevin MacLeod (incompetech.com), CC BY 4.0"},
     "watermark": {"handle": "@indre.Grazuliene"},
-    "endCard": {"startMs": CUT_MS, "handle": "@indre.Grazuliene", "text": "for more Koh Tao"},
+    "endCard": {"startMs": CUT_MS, "handle": "@indre.Grazuliene", "text": "for more Koh Tao", "holdMs": 1800, "focus": [0.82, 0.36]},  # owner: hold the 1.8 s frame (turned to the sea, smiling)
 }
 
 (ROOT / "edit/timeline.json").write_text(json.dumps(timeline, ensure_ascii=False, indent=1))

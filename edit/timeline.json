@@ -1794,6 +1794,11 @@
  "endCard": {
   "startMs": 82700,
   "handle": "@indre.Grazuliene",
-  "text": "for more Koh Tao"
+  "text": "for more Koh Tao",
+  "holdMs": 1800,
+  "focus": [
+   0.82,
+   0.36
+  ]
  }
 }

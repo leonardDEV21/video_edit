@@ -89,7 +89,7 @@ export const Short: React.FC<Timeline & {showCaptions?: boolean}> = (t) => {
 	const maps = t.graphics.filter((g) => g.type === 'mapZoom');
 	return (
 		<AbsoluteFill style={{backgroundColor: '#000', overflow: 'hidden'}}>
-			<BaseVideo src={t.cut} cutMs={t.cutMs} zooms={t.zooms} />
+			<BaseVideo src={t.cut} cutMs={t.cutMs} zooms={t.zooms} holdMs={t.endCard.holdMs} holdFocus={t.endCard.focus} />
 			{t.broll.map((b, i) => (
 				<Span key={`b${i}`} startMs={b.startMs} endMs={b.endMs} name={`broll ${i}`}>
 					{(d) => <BRoll b={b} durationInFrames={d} />}

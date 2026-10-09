@@ -353,3 +353,6 @@ Owner: "pretty good", plus:
 * Style rules learned: **this owner likes playful, meme-style touches** (relatable captions, gauges and meters, stamps, sparkle and hero shots)
   on top of the postcard look. Keep them tied to real moments and lines from the clip, and keep the money exact.
 * Preview pass 3: 2541 frames = 84.70 s; mastered -14.0 LUFS, true peak -1.3 dBTP; all `check_timeline.py` checks pass.
+* 2026-10-09, owner: the end card holds **the 1.8 s frame** (she has turned toward the sea, smiling) instead of the last frame.
+  `endCard.holdMs = 1800`, with a push-in centred on her face; the end-card text was made smaller and moved left so it stays off her face.
+  The first attempt (frame 0, smile to camera) was rejected ("ne ne 1.8 naudok").
