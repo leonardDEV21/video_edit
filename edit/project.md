@@ -380,3 +380,14 @@ START_HERE.md, EDIT_REQUEST_TEMPLATE.md and a `/pro-edit` skill. It is documenta
   (same timeline as v3, plus the yuv420p/BT.709 output fix).
 * The owner added an ElevenLabs API key to the environment secrets as `ELEVENLABS_API_KEY`. It is only visible in new sessions.
   It was not used for this video. Ask before each use: the audio goes to ElevenLabs and costs credits.
+
+## 11. Poster-frame fix (owner, 2026-10-09) → final v02
+
+* The owner saw a half-animated hook as the still frame of the unplayed video ("kas čia per nesąmonė") and wants the cover there.
+* Fix: the first 3 frames (0.1 s) of the video are now the cover itself (`timeline.cover = {frameMs: 14650, introFrames: 3}`;
+  `Short.tsx` overlays `<Cover>` under `<Freeze>`). The hook starts at 100 ms; the hook title holds 100–1620 ms.
+  `qc_render.py` gains the "first frame is the cover" check (SSIM ≥ 0.90), wired into `finalize.sh`.
+* Final **v02**: all 11 checks PASS (first frame vs cover SSIM 0.960). The share copy (28.4 MiB, H.264 2.54 Mbps, master audio copied unchanged)
+  measures -14.0 LUFS and -1.3 dBTP, with a cover-matching first frame (SSIM 0.946). v01 is kept unchanged.
+* Lesson: re-encoding AAC for the share copy pushed the true peak to -0.6 dBTP, so the master audio is copied instead.
+* Pinned `remotion`/`@remotion/*` to 4.0.534 and `zod` to 4.5.4 (Remotion's version-mismatch warning is gone).

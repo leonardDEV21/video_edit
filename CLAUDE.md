@@ -231,6 +231,9 @@ the same `timeline.json`, so the opening and the cover match.
    check a copy scaled down to 320px wide.
 3. Do not cover the face. Keep the bottom right corner free (platform duration badge).
 4. Write to `out/thumb-long.jpg`, `out/thumb-short-1.jpg` and so on.
+5. **Poster frames.** The first `cover.introFrames` frames of the video (default 3 frames, 0.1 s) are the cover itself,
+   so every platform and player shows the cover before playback (owner rule, 2026-10-09). The hook starts right after.
+   `qc_render.py` checks that the first frame matches the cover (SSIM ≥ 0.90).
 
 ## 7. Captions: Lithuanian speech, English karaoke
 
@@ -379,4 +382,5 @@ You cannot hear audio or judge music taste. Say so and report the measured numbe
   keep their words in the captions and show the real rate after they finish.
 * Music clearly under the voice (about 15 dB).
 * End card on a frame the owner picks (first video: the 1.8 s smile frame).
+* The unplayed video must show the cover: the first 0.1 s is the cover (section 6b.5). A half-animated first frame is a defect.
 * Map insert of the exact venue (OSM, with the credit on screen) when a place is named.

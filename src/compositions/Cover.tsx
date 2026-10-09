@@ -5,13 +5,13 @@ import {Flag, Heart, Palm} from '../components/Doodles';
 import type {Timeline} from '../schema';
 import {colors, fonts, msToFrame} from '../theme';
 
-// Cover in the postcard style, from the owner's chosen frame (source 15.0 s = cut 14.65 s).
-export const COVER_FRAME_MS = 14650;
+// Cover in the postcard style, from the owner's chosen frame (timeline.cover.frameMs).
+// Rendered as the ShortThumb still AND as the first frames of the Short (poster frame).
 
 export const Cover: React.FC<Timeline> = (t) => (
 	<AbsoluteFill style={{backgroundColor: '#000', overflow: 'hidden'}}>
 		<div style={{position: 'absolute', inset: 0, transform: 'scale(1.05)', transformOrigin: '62% 45%'}}>
-			<OffthreadVideo src={staticFile(t.cut)} trimBefore={msToFrame(COVER_FRAME_MS, t.fps)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+			<OffthreadVideo src={staticFile(t.cut)} trimBefore={msToFrame(t.cover.frameMs, t.fps)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
 		</div>
 		<AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 30%)'}} />
 		<div style={{position: 'absolute', top: 262, left: 40, right: 150, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>

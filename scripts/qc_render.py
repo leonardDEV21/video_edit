@@ -1,12 +1,13 @@
 """Quality gate on the RENDERED file (playbook section 11, CLAUDE.md section 10).
 Checks what can be measured; writes a report that says which checks ran and what a human must still review.
-Usage: python3 scripts/qc_render.py <video.mp4> [report.md]"""
+Usage: python3 scripts/qc_render.py <video.mp4> [report.md] [cover.jpg]"""
 import json, re, subprocess, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 video = Path(sys.argv[1])
 report = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "verify" / f"qc_{video.stem}.md"
+cover = Path(sys.argv[3]) if len(sys.argv) > 3 else None
 shots = ROOT / "verify" / f"qc_{video.stem}"
 shots.mkdir(parents=True, exist_ok=True)
 t = json.loads((ROOT / "edit/timeline.json").read_text())
@@ -69,6 +70,17 @@ run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(video), "-vf", "fps=1,
 ymean = run(["ffmpeg", "-nostdin", "-v", "error", "-i", str(shots / "first_frame.jpg"), "-vf", "signalstats,metadata=print:key=lavfi.signalstats.YAVG:file=-", "-f", "null", "-"]).stdout
 y = float(re.search(r"YAVG=([\d.]+)", ymean).group(1)) if "YAVG" in ymean else -1
 rows.append(("PASS" if y > 30 else "FAIL", "first frame not black", f"mean luma {y:.0f}; {shots / 'first_frame.jpg'}"))
+
+# 6. poster frame: the unplayed video must show the cover (timeline.cover.introFrames > 0)
+if t.get("cover", {}).get("introFrames", 0) > 0:
+    if cover and cover.exists():
+        out = run(["ffmpeg", "-nostdin", "-hide_banner", "-i", str(shots / "first_frame.jpg"), "-i", str(cover), "-lavfi",
+                   "[1:v]scale=1080:1920[c];[0:v][c]ssim", "-f", "null", "-"]).stderr
+        m = re.search(r"All:([\d.]+)", out)
+        s = float(m.group(1)) if m else 0
+        rows.append(("PASS" if s >= 0.9 else "FAIL", "first frame is the cover", f"SSIM {s:.3f} vs {cover.name} (min 0.90)"))
+    else:
+        rows.append(("WARN", "first frame is the cover", "no cover image given; compare first_frame.jpg with the thumbnail by eye"))
 
 fails = sum(r[0] == "FAIL" for r in rows); warns = sum(r[0] == "WARN" for r in rows)
 md = [f"# QC report: {video.name}", "", f"Automated checks run: {len(rows)}. FAIL: {fails}. WARN: {warns} (WARN = a human must look; may be intentional).", "",

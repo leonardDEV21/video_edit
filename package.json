@@ -11,13 +11,13 @@
     "final": "scripts/finalize.sh"
   },
   "dependencies": {
-    "@remotion/cli": "^4.0.530",
-    "@remotion/fonts": "^4.0.530",
-    "@remotion/media-utils": "^4.0.530",
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/media-utils": "4.0.534",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "remotion": "^4.0.530",
-    "zod": "^4.5.4"
+    "remotion": "4.0.534",
+    "zod": "4.5.4"
   },
   "devDependencies": {
     "@types/react": "^19.1.0",

@@ -86,6 +86,7 @@ export const timelineSchema = z.object({
 	sfx: z.array(sfx),
 	music: z.object({src: z.string(), gainDb: z.number(), duckDb: z.number(), fadeOutMs: z.number(), credit: z.string()}),
 	watermark: z.object({handle: z.string()}),
+	cover: z.object({frameMs: z.number(), introFrames: z.number().int().min(0).max(15)}),
 	endCard: z.object({startMs: z.number(), handle: z.string(), text: z.string(), holdMs: z.number(), focus: z.tuple([z.number(), z.number()])}),
 });
 

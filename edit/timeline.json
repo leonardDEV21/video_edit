@@ -1477,8 +1477,8 @@
  "graphics": [
   {
    "type": "hookTitle",
-   "startMs": 0,
-   "endMs": 1550,
+   "startMs": 100,
+   "endMs": 1620,
    "text": "Breakfast for 4",
    "highlight": "400 baht"
   },
@@ -1674,7 +1674,7 @@
  "sfx": [
   {
    "src": "sfx/whoosh.wav",
-   "atMs": 0,
+   "atMs": 100,
    "gainDb": -16,
    "attackMs": 0
   },
@@ -1790,6 +1790,10 @@
  },
  "watermark": {
   "handle": "@indre.Grazuliene"
+ },
+ "cover": {
+  "frameMs": 14650,
+  "introFrames": 3
  },
  "endCard": {
   "startMs": 82700,

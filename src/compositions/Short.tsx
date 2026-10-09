@@ -1,6 +1,7 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Freeze, Sequence, useCurrentFrame, useVideoConfig} from 'remotion';
 import {BaseVideo} from '../components/BaseVideo';
+import {Cover} from './Cover';
 import {BRoll} from '../components/BRoll';
 import {Callout} from '../components/Callout';
 import {EndCard} from '../components/EndCard';
@@ -113,6 +114,15 @@ export const Short: React.FC<Timeline & {showCaptions?: boolean}> = (t) => {
 			</Span>
 			<SfxTrack sfx={t.sfx} />
 			<MusicBed music={t.music} captions={t.captions} endMs={t.durationMs} />
+			{t.cover.introFrames > 0 ? (
+				// Poster frames: the cover sits on top of everything for the first few frames, so the
+				// unplayed video shows it on every platform. Audio is untouched.
+				<Sequence from={0} durationInFrames={t.cover.introFrames} name="cover (poster frames)">
+					<Freeze frame={0}>
+						<Cover {...t} />
+					</Freeze>
+				</Sequence>
+			) : null}
 		</AbsoluteFill>
 	);
 };

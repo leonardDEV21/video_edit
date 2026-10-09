@@ -18,5 +18,5 @@ npx remotion still ShortThumb "${base}_thumb.jpg" --log=error
 python3 scripts/export_srt.py "${base}.srt"
 python3 scripts/export_edit_plan.py "${base}_edit_plan.csv"
 python3 scripts/check_caption_sync.py | tail -1
-python3 scripts/qc_render.py "${base}.mp4" "${base}_qc.md"
+python3 scripts/qc_render.py "${base}.mp4" "${base}_qc.md" "${base}_thumb.jpg"
 echo "Delivered: ${base}.mp4 (+ .srt, _edit_plan.csv, _qc.md, _thumb.jpg)"

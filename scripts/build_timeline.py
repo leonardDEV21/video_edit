@@ -14,6 +14,9 @@ EDL = json.loads((ROOT / "edit/edl.json").read_text())
 OFFSET_S = EDL["segments"][0]["sourceStart"]  # 0.35
 CUT_MS = 82700  # ffprobe of edit/cut.mp4: 2481 frames at 30 fps
 END_CARD_MS = 2000
+# Poster frames: the first frames of the video ARE the cover, so every platform/player shows it before playback.
+COVER = {"frameMs": 14650, "introFrames": 3}  # owner picked source 15.0 s (cut 14.65 s); 3 frames = 0.1 s
+INTRO_MS = round(COVER["introFrames"] * 1000 / 30)
 FPS = 30
 
 # ---- Money: one source of truth --------------------------------------------
@@ -161,7 +164,7 @@ BROLL = []  # Critic: inserts replayed shots and hid footage; owner wants the wh
 
 fmt_eur = lambda d: f"€{d}"
 graphics = [
-    {"type": "hookTitle", "startMs": 0, "endMs": 1550, "text": "Breakfast for 4", "highlight": f"{MONEY['billThb']} baht"},
+    {"type": "hookTitle", "startMs": INTRO_MS, "endMs": 1620, "text": "Breakfast for 4", "highlight": f"{MONEY['billThb']} baht"},
     {"type": "postcardTitle", "startMs": 1650, "endMs": MAP[0], "title": "Koh Tao", "place": "Tao Thong Villa 2", "country": "THAILAND", "flag": "TH"},
     {"type": "weatherBadge", "startMs": 2300, "endMs": MAP[0], "date": "October 7", "tempC": 30, "icon": "sun"},
     {"type": "mapZoom", "startMs": MAP[0], "endMs": MAP[1], "lat": 10.06935, "lon": 99.81694, "label": "Tao Thong Villa 2", "region": "Koh Tao",
@@ -191,7 +194,7 @@ graphics = [
 ]
 
 sfx = [
-    {"src": "sfx/whoosh.wav", "atMs": 0, "gainDb": -16, "attackMs": 0},
+    {"src": "sfx/whoosh.wav", "atMs": INTRO_MS, "gainDb": -16, "attackMs": 0},
     {"src": "sfx/swish.wav", "atMs": 1650 + 400, "gainDb": -20, "attackMs": 60},
     {"src": "sfx/whoosh.wav", "atMs": MAP[0], "gainDb": -16, "attackMs": 120},
     {"src": "sfx/pop.wav", "atMs": MAP[1] - 1200, "gainDb": -15, "attackMs": 20},
@@ -227,6 +230,7 @@ timeline = {
     # gainDb: level between phrases; duckDb: extra cut under speech, so music sits ~12 dB under the voice.
     "music": {"src": "music/life-of-riley.mp3", "gainDb": -5.6, "duckDb": -12, "fadeOutMs": 1800, "credit": "\"Life of Riley\" Kevin MacLeod (incompetech.com), CC BY 4.0"},
     "watermark": {"handle": "@indre.Grazuliene"},
+    "cover": COVER,
     "endCard": {"startMs": CUT_MS, "handle": "@indre.Grazuliene", "text": "for more Koh Tao", "holdMs": 1800, "focus": [0.82, 0.36]},  # owner: hold the 1.8 s frame (turned to the sea, smiling)
 }
 
