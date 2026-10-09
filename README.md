@@ -13,6 +13,7 @@ Never commit footage, renders, music or `.env`. Code, timelines, transcripts and
 | `EDITING_PLAYBOOK.md` | Creative reference: story shapes, hooks, rhythm, transitions, sound cues, colour, quality gate. |
 | `.claude/skills/pro-edit/SKILL.md` | `/pro-edit`: step-by-step runbook for this pipeline. |
 | `EDIT_REQUEST_TEMPLATE.md` | Copy to `EDIT_REQUEST.md` and fill in before a new video. |
+| `prompts/AI_EDIT_STUDIO_PRO_PROMPT.md` | Master prompt for growing this repo into a full studio (auto editor + visual editor + AI director), with researched editing doctrine. |
 | `src/` | Remotion project (`Short`, `ShortThumb`), components in `src/components/`. |
 | `scripts/` | Timeline builder, checks, stills, mastering, QC, SRT and edit-plan export, final delivery. |
 | `edit/` | Per-project data: `project.md` (decisions), `shot_map.csv`, `edl.json`, `timeline.json`, transcripts. |
