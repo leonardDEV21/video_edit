@@ -356,3 +356,20 @@ Owner: "pretty good", plus:
 * 2026-10-09, owner: the end card holds **the 1.8 s frame** (she has turned toward the sea, smiling) instead of the last frame.
   `endCard.holdMs = 1800`, with a push-in centred on her face; the end-card text was made smaller and moved left so it stays off her face.
   The first attempt (frame 0, smile to camera) was rejected ("ne ne 1.8 naudok").
+
+## 9. Setup upgrade from the owner's "pro video editing kit" (2026-10-09)
+
+The owner asked to review and add to the setup without breaking it. Kit contents: CLAUDE.md, EDITING_PLAYBOOK.md,
+START_HERE.md, EDIT_REQUEST_TEMPLATE.md and a `/pro-edit` skill. It is documentation only, with no code.
+* **Adopted:** `EDITING_PLAYBOOK.md` (verbatim, with a "how this fits" preface); truth, privacy and safety
+  rules (CLAUDE.md section 0); story shapes and true hooks in GATE A; the shot map (`edit/shot_map.csv`);
+  transitions toolbox, extra sound cues and colour rules (section 8); the rendered-file quality gate
+  (`scripts/qc_render.py`); SRT sidecar (`scripts/export_srt.py`); edit-plan CSV (`scripts/export_edit_plan.py`);
+  versioned finals (`scripts/finalize.sh` → `out/final/<name>_vertical_vNN.*`); `/pro-edit` rewritten for this pipeline;
+  request template pre-filled with our defaults.
+* **Kept ours where the kit differs:** folders (`edit/`, `out/`, `out/final/` rather than `work/`, `previews/`, `deliverables/`),
+  2–3 word karaoke pages, the brief decides length, gates A and B, and the `timeline.json` contract.
+* **Found by the new QC:** Remotion v4 rendered full-range `yuvj420p` tagged BT.601. Now `setColorSpace('bt709')`
+  plus `yuv420p` produce standard `yuv420p(tv, bt709)`. The finals will use this.
+* Music rule changed from 12–15 dB to 15–18 dB under speech, which matches the playbook and the owner's feedback.
+* Handle in CLAUDE.md updated to @indre.Grazuliene. Owner preferences recorded in CLAUDE.md section 13.

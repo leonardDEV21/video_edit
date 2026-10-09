@@ -1,0 +1,17 @@
+source_file,source_in_s,source_out_s,shot,action,audio,usable,notes
+raw/source.mp4,0.00,0.35,medium close,woman faces camera smiling,silence,trimmed,head trim before first word
+raw/source.mp4,0.35,6.10,medium,woman (red swimsuit) talks to camera with fruit bowl; sea and island behind,speech LT,yes,hook; "we're on Koh Tao"
+raw/source.mp4,6.10,9.50,camera move,pan across table: papaya salad then sandwich,speech LT ("show where we are"),yes,covered by animated map insert
+raw/source.mp4,9.50,11.50,close-up,carved key tag "TAO THONG 2 / ROOM No 1",speech LT,yes,place proof
+raw/source.mp4,12.00,19.00,wide,woman eats; deck; turquoise water; island,speech LT,yes,side notes over sea
+raw/source.mp4,19.60,22.60,close-up,yogurt bowl held over the deck (dragon fruit; banana; granola),speech LT,yes,food hero
+raw/source.mp4,23.00,41.00,medium,woman eats and talks; island behind,speech LT,yes,battery graphic 35-40 s
+raw/source.mp4,41.70,49.00,close-up,chicken sandwich; hand closes it ~47 s,speech LT,yes,hero shine
+raw/source.mp4,50.00,51.50,medium,woman points,speech LT,yes,
+raw/source.mp4,51.60,55.00,close-up,papaya salad; eggs in egg cups,speech LT,yes,
+raw/source.mp4,55.00,58.00,pan,sea and table,speech LT,yes,taste-o-meter
+raw/source.mp4,58.00,60.00,medium,woman gestures to camera,speech LT,yes,
+raw/source.mp4,60.35,61.55,medium,daughter on teal bean bag under the roof,speech LT,yes,owner OK to show
+raw/source.mp4,61.55,62.40,pan,sea and rocks,speech LT,yes,
+raw/source.mp4,62.40,82.90,medium (fixed),woman eats; price talk (400 baht; 10-12 euros for four),speech LT,yes,price tag + stamp
+raw/source.mp4,82.90,84.34,medium,after "Ačiū",ambience,trimmed,tail trim

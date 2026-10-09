@@ -13,16 +13,9 @@ for a, b in words:
         win[-1][1] = max(win[-1][1], b)
     else:
         win.append([a, b])
-# pages, same rules as KaraokeCaptions.toPages
-c = t["captions"]; pages = []; cur = []
-for i, w in enumerate(c):
-    prev = c[i - 1] if i else None
-    rest = next((k - i + 1 for k in range(i, len(c)) if re.search(r"[.?!]$", c[k]["text"])), 1)
-    brk = cur and (len(cur) == 3 or (len(cur) == 2 and rest == 2) or (prev and re.search(r"[.?!]$", prev["text"])) or (prev and prev["text"].endswith(",") and len(cur) >= 2 and next((k - i + 1 for k in range(i, len(c)) if re.search(r"[.?!]$", c[k]["text"])), 1) >= 2) or (prev and w["startMs"] - prev["endMs"] >= 300))
-    if brk:
-        pages.append(cur); cur = []
-    cur.append(w)
-pages.append(cur)
+from caption_pages import karaoke_pages
+c = t["captions"]
+pages = karaoke_pages(c)
 step = max(1, len(pages) // 10)
 bad = 0
 for p in pages[::step][:10]:

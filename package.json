@@ -3,10 +3,12 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio",
-    "check": "tsc && python3 scripts/check_timeline.py",
-    "preview": "remotion render Short out/preview-1080.mp4 --crf=20 && ffmpeg -y -i out/preview-1080.mp4 -vf scale=720:1280 -c:v libx264 -crf 22 -c:a copy out/preview-720.mp4",
-    "render": "remotion render Short out/short-1.mp4",
-    "thumb": "remotion still ShortThumb out/thumb-short-1.jpg"
+    "check": "tsc && python3 scripts/check_timeline.py && python3 scripts/check_caption_sync.py",
+    "preview": "remotion render Short out/preview-1080.mp4 --crf=20 && python3 scripts/master.py out/preview-1080.mp4 out/preview-1080-mastered.mp4 && python3 scripts/qc_render.py out/preview-1080-mastered.mp4",
+    "thumb": "remotion still ShortThumb out/thumb-short-1.jpg",
+    "timeline": "python3 scripts/build_timeline.py",
+    "qc": "python3 scripts/qc_render.py",
+    "final": "scripts/finalize.sh"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.530",
