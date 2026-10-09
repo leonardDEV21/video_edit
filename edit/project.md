@@ -373,3 +373,10 @@ START_HERE.md, EDIT_REQUEST_TEMPLATE.md and a `/pro-edit` skill. It is documenta
   plus `yuv420p` produce standard `yuv420p(tv, bt709)`. The finals will use this.
 * Music rule changed from 12–15 dB to 15–18 dB under speech, which matches the playbook and the owner's feedback.
 * Handle in CLAUDE.md updated to @indre.Grazuliene. Owner preferences recorded in CLAUDE.md section 13.
+
+## 10. GATE B approved (owner, 2026-10-09)
+
+* The owner approved preview v3 ("I approve"). The final was rendered with `scripts/finalize.sh koh-tao-breakfast`
+  (same timeline as v3, plus the yuv420p/BT.709 output fix).
+* The owner added an ElevenLabs API key to the environment secrets as `ELEVENLABS_API_KEY`. It is only visible in new sessions.
+  It was not used for this video. Ask before each use: the audio goes to ElevenLabs and costs credits.
