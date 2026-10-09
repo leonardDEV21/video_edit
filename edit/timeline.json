@@ -1,0 +1,1808 @@
+{
+ "fps": 30,
+ "cut": "cut.mp4",
+ "cutMs": 82700,
+ "durationMs": 84700,
+ "cuts": [
+  0,
+  5850,
+  9250
+ ],
+ "money": {
+  "rateEurThb": "37.661",
+  "rateDate": "2026-10-07",
+  "rateSource": "ECB reference rate via api.frankfurter.dev",
+  "billThb": 400,
+  "people": 4,
+  "billEur": "10.62",
+  "eachThb": 100,
+  "eachEur": "2.66"
+ },
+ "captions": [
+  {
+   "text": "So,",
+   "startMs": 80,
+   "endMs": 336,
+   "emphasis": false
+  },
+  {
+   "text": "we're",
+   "startMs": 336,
+   "endMs": 976,
+   "emphasis": false
+  },
+  {
+   "text": "on",
+   "startMs": 976,
+   "endMs": 1232,
+   "emphasis": false
+  },
+  {
+   "text": "Koh",
+   "startMs": 1232,
+   "endMs": 1616,
+   "emphasis": true
+  },
+  {
+   "text": "Tao,",
+   "startMs": 1616,
+   "endMs": 2000,
+   "emphasis": true
+  },
+  {
+   "text": "and",
+   "startMs": 2000,
+   "endMs": 2249,
+   "emphasis": false
+  },
+  {
+   "text": "we",
+   "startMs": 2249,
+   "endMs": 2415,
+   "emphasis": false
+  },
+  {
+   "text": "started",
+   "startMs": 2415,
+   "endMs": 2997,
+   "emphasis": false
+  },
+  {
+   "text": "the",
+   "startMs": 2997,
+   "endMs": 3246,
+   "emphasis": false
+  },
+  {
+   "text": "morning",
+   "startMs": 3246,
+   "endMs": 3828,
+   "emphasis": false
+  },
+  {
+   "text": "with",
+   "startMs": 3828,
+   "endMs": 4160,
+   "emphasis": false
+  },
+  {
+   "text": "a",
+   "startMs": 4160,
+   "endMs": 4326,
+   "emphasis": false
+  },
+  {
+   "text": "breakfast",
+   "startMs": 4326,
+   "endMs": 5074,
+   "emphasis": true
+  },
+  {
+   "text": "like",
+   "startMs": 5074,
+   "endMs": 5406,
+   "emphasis": false
+  },
+  {
+   "text": "this.",
+   "startMs": 5406,
+   "endMs": 5740,
+   "emphasis": false
+  },
+  {
+   "text": "Show",
+   "startMs": 6660,
+   "endMs": 7104,
+   "emphasis": false
+  },
+  {
+   "text": "them",
+   "startMs": 7104,
+   "endMs": 7548,
+   "emphasis": false
+  },
+  {
+   "text": "where",
+   "startMs": 7548,
+   "endMs": 8104,
+   "emphasis": false
+  },
+  {
+   "text": "we",
+   "startMs": 8104,
+   "endMs": 8326,
+   "emphasis": false
+  },
+  {
+   "text": "are.",
+   "startMs": 8326,
+   "endMs": 8660,
+   "emphasis": false
+  },
+  {
+   "text": "You",
+   "startMs": 9480,
+   "endMs": 9873,
+   "emphasis": false
+  },
+  {
+   "text": "can",
+   "startMs": 9873,
+   "endMs": 10266,
+   "emphasis": false
+  },
+  {
+   "text": "save",
+   "startMs": 10266,
+   "endMs": 10790,
+   "emphasis": true
+  },
+  {
+   "text": "this",
+   "startMs": 10790,
+   "endMs": 11314,
+   "emphasis": false
+  },
+  {
+   "text": "spot,",
+   "startMs": 11314,
+   "endMs": 11840,
+   "emphasis": false
+  },
+  {
+   "text": "if",
+   "startMs": 11840,
+   "endMs": 11960,
+   "emphasis": false
+  },
+  {
+   "text": "you're",
+   "startMs": 11960,
+   "endMs": 12320,
+   "emphasis": false
+  },
+  {
+   "text": "interested.",
+   "startMs": 12320,
+   "endMs": 12920,
+   "emphasis": false
+  },
+  {
+   "text": "Really",
+   "startMs": 12920,
+   "endMs": 13486,
+   "emphasis": false
+  },
+  {
+   "text": "nice,",
+   "startMs": 13486,
+   "endMs": 13863,
+   "emphasis": false
+  },
+  {
+   "text": "so",
+   "startMs": 13863,
+   "endMs": 14052,
+   "emphasis": false
+  },
+  {
+   "text": "beautiful.",
+   "startMs": 14052,
+   "endMs": 14900,
+   "emphasis": true
+  },
+  {
+   "text": "Views",
+   "startMs": 15060,
+   "endMs": 15431,
+   "emphasis": true
+  },
+  {
+   "text": "like",
+   "startMs": 15431,
+   "endMs": 15728,
+   "emphasis": false
+  },
+  {
+   "text": "this,",
+   "startMs": 15728,
+   "endMs": 16025,
+   "emphasis": false
+  },
+  {
+   "text": "breakfasts",
+   "startMs": 16025,
+   "endMs": 16767,
+   "emphasis": false
+  },
+  {
+   "text": "like",
+   "startMs": 16767,
+   "endMs": 17064,
+   "emphasis": false
+  },
+  {
+   "text": "this.",
+   "startMs": 17064,
+   "endMs": 17360,
+   "emphasis": false
+  },
+  {
+   "text": "And",
+   "startMs": 17360,
+   "endMs": 17553,
+   "emphasis": false
+  },
+  {
+   "text": "here",
+   "startMs": 17553,
+   "endMs": 17810,
+   "emphasis": false
+  },
+  {
+   "text": "there's...",
+   "startMs": 17810,
+   "endMs": 18260,
+   "emphasis": false
+  },
+  {
+   "text": "Third",
+   "startMs": 18260,
+   "endMs": 18727,
+   "emphasis": true
+  },
+  {
+   "text": "day",
+   "startMs": 18727,
+   "endMs": 19007,
+   "emphasis": true
+  },
+  {
+   "text": "in",
+   "startMs": 19007,
+   "endMs": 19194,
+   "emphasis": false
+  },
+  {
+   "text": "a",
+   "startMs": 19194,
+   "endMs": 19381,
+   "emphasis": false
+  },
+  {
+   "text": "row",
+   "startMs": 19381,
+   "endMs": 19661,
+   "emphasis": false
+  },
+  {
+   "text": "we've",
+   "startMs": 19661,
+   "endMs": 20128,
+   "emphasis": false
+  },
+  {
+   "text": "ordered",
+   "startMs": 20128,
+   "endMs": 20780,
+   "emphasis": false
+  },
+  {
+   "text": "this",
+   "startMs": 20780,
+   "endMs": 21166,
+   "emphasis": false
+  },
+  {
+   "text": "yogurt",
+   "startMs": 21166,
+   "endMs": 21745,
+   "emphasis": true
+  },
+  {
+   "text": "bowl.",
+   "startMs": 21745,
+   "endMs": 22131,
+   "emphasis": true
+  },
+  {
+   "text": "Fruit",
+   "startMs": 22131,
+   "endMs": 22614,
+   "emphasis": false
+  },
+  {
+   "text": "salad,",
+   "startMs": 22614,
+   "endMs": 23097,
+   "emphasis": false
+  },
+  {
+   "text": "mango.",
+   "startMs": 23097,
+   "endMs": 23580,
+   "emphasis": false
+  },
+  {
+   "text": "Fresh",
+   "startMs": 23780,
+   "endMs": 24500,
+   "emphasis": true
+  },
+  {
+   "text": "fruit.",
+   "startMs": 24500,
+   "endMs": 25220,
+   "emphasis": false
+  },
+  {
+   "text": "Fresh",
+   "startMs": 25400,
+   "endMs": 25969,
+   "emphasis": false
+  },
+  {
+   "text": "fruit,",
+   "startMs": 25969,
+   "endMs": 26538,
+   "emphasis": false
+  },
+  {
+   "text": "papaya.",
+   "startMs": 26538,
+   "endMs": 27220,
+   "emphasis": false
+  },
+  {
+   "text": "There's",
+   "startMs": 27220,
+   "endMs": 27858,
+   "emphasis": false
+  },
+  {
+   "text": "dragon",
+   "startMs": 27858,
+   "endMs": 28405,
+   "emphasis": true
+  },
+  {
+   "text": "fruit,",
+   "startMs": 28405,
+   "endMs": 28861,
+   "emphasis": true
+  },
+  {
+   "text": "and",
+   "startMs": 28861,
+   "endMs": 29134,
+   "emphasis": false
+  },
+  {
+   "text": "banana,",
+   "startMs": 29134,
+   "endMs": 29680,
+   "emphasis": false
+  },
+  {
+   "text": "a",
+   "startMs": 29700,
+   "endMs": 29910,
+   "emphasis": false
+  },
+  {
+   "text": "few",
+   "startMs": 29910,
+   "endMs": 30225,
+   "emphasis": false
+  },
+  {
+   "text": "nuts,",
+   "startMs": 30225,
+   "endMs": 30644,
+   "emphasis": false
+  },
+  {
+   "text": "some",
+   "startMs": 30644,
+   "endMs": 31063,
+   "emphasis": false
+  },
+  {
+   "text": "granola,",
+   "startMs": 31063,
+   "endMs": 31797,
+   "emphasis": true
+  },
+  {
+   "text": "a",
+   "startMs": 31797,
+   "endMs": 32007,
+   "emphasis": false
+  },
+  {
+   "text": "bit",
+   "startMs": 32007,
+   "endMs": 32322,
+   "emphasis": false
+  },
+  {
+   "text": "of",
+   "startMs": 32322,
+   "endMs": 32532,
+   "emphasis": false
+  },
+  {
+   "text": "yogurt.",
+   "startMs": 32532,
+   "endMs": 33160,
+   "emphasis": false
+  },
+  {
+   "text": "Really",
+   "startMs": 33160,
+   "endMs": 33427,
+   "emphasis": false
+  },
+  {
+   "text": "filling,",
+   "startMs": 33427,
+   "endMs": 33739,
+   "emphasis": true
+  },
+  {
+   "text": "honestly.",
+   "startMs": 33739,
+   "endMs": 34095,
+   "emphasis": false
+  },
+  {
+   "text": "Keeps",
+   "startMs": 34095,
+   "endMs": 34318,
+   "emphasis": false
+  },
+  {
+   "text": "you",
+   "startMs": 34318,
+   "endMs": 34452,
+   "emphasis": false
+  },
+  {
+   "text": "full",
+   "startMs": 34452,
+   "endMs": 34630,
+   "emphasis": false
+  },
+  {
+   "text": "all",
+   "startMs": 34630,
+   "endMs": 34764,
+   "emphasis": false
+  },
+  {
+   "text": "day,",
+   "startMs": 34764,
+   "endMs": 34898,
+   "emphasis": false
+  },
+  {
+   "text": "right?",
+   "startMs": 34898,
+   "endMs": 35120,
+   "emphasis": false
+  },
+  {
+   "text": "Really",
+   "startMs": 35300,
+   "endMs": 35652,
+   "emphasis": false
+  },
+  {
+   "text": "filling.",
+   "startMs": 35652,
+   "endMs": 36062,
+   "emphasis": false
+  },
+  {
+   "text": "You",
+   "startMs": 36062,
+   "endMs": 36238,
+   "emphasis": false
+  },
+  {
+   "text": "feel",
+   "startMs": 36238,
+   "endMs": 36473,
+   "emphasis": false
+  },
+  {
+   "text": "energised,",
+   "startMs": 36473,
+   "endMs": 37001,
+   "emphasis": true
+  },
+  {
+   "text": "happy,",
+   "startMs": 37001,
+   "endMs": 37294,
+   "emphasis": true
+  },
+  {
+   "text": "not",
+   "startMs": 37294,
+   "endMs": 37470,
+   "emphasis": false
+  },
+  {
+   "text": "stuffed,",
+   "startMs": 37470,
+   "endMs": 37880,
+   "emphasis": false
+  },
+  {
+   "text": "and",
+   "startMs": 37880,
+   "endMs": 38274,
+   "emphasis": false
+  },
+  {
+   "text": "off",
+   "startMs": 38274,
+   "endMs": 38668,
+   "emphasis": false
+  },
+  {
+   "text": "you",
+   "startMs": 38668,
+   "endMs": 39062,
+   "emphasis": false
+  },
+  {
+   "text": "go,",
+   "startMs": 39062,
+   "endMs": 39324,
+   "emphasis": false
+  },
+  {
+   "text": "right?",
+   "startMs": 39324,
+   "endMs": 39980,
+   "emphasis": false
+  },
+  {
+   "text": "Yeah,",
+   "startMs": 39980,
+   "endMs": 40238,
+   "emphasis": false
+  },
+  {
+   "text": "a",
+   "startMs": 40238,
+   "endMs": 40367,
+   "emphasis": false
+  },
+  {
+   "text": "view",
+   "startMs": 40367,
+   "endMs": 40625,
+   "emphasis": false
+  },
+  {
+   "text": "like",
+   "startMs": 40625,
+   "endMs": 40883,
+   "emphasis": false
+  },
+  {
+   "text": "this.",
+   "startMs": 40883,
+   "endMs": 41140,
+   "emphasis": false
+  },
+  {
+   "text": "And",
+   "startMs": 41140,
+   "endMs": 41297,
+   "emphasis": false
+  },
+  {
+   "text": "our",
+   "startMs": 41297,
+   "endMs": 41454,
+   "emphasis": false
+  },
+  {
+   "text": "son's",
+   "startMs": 41454,
+   "endMs": 41716,
+   "emphasis": false
+  },
+  {
+   "text": "chicken",
+   "startMs": 41716,
+   "endMs": 42082,
+   "emphasis": true
+  },
+  {
+   "text": "sandwich.",
+   "startMs": 42082,
+   "endMs": 42500,
+   "emphasis": true
+  },
+  {
+   "text": "You",
+   "startMs": 42520,
+   "endMs": 42837,
+   "emphasis": false
+  },
+  {
+   "text": "can",
+   "startMs": 42837,
+   "endMs": 43154,
+   "emphasis": false
+  },
+  {
+   "text": "add",
+   "startMs": 43154,
+   "endMs": 43471,
+   "emphasis": false
+  },
+  {
+   "text": "all",
+   "startMs": 43471,
+   "endMs": 43788,
+   "emphasis": false
+  },
+  {
+   "text": "kinds",
+   "startMs": 43788,
+   "endMs": 44316,
+   "emphasis": false
+  },
+  {
+   "text": "of",
+   "startMs": 44316,
+   "endMs": 44527,
+   "emphasis": false
+  },
+  {
+   "text": "sauces,",
+   "startMs": 44527,
+   "endMs": 45160,
+   "emphasis": true
+  },
+  {
+   "text": "but",
+   "startMs": 45220,
+   "endMs": 45470,
+   "emphasis": false
+  },
+  {
+   "text": "he",
+   "startMs": 45470,
+   "endMs": 45637,
+   "emphasis": false
+  },
+  {
+   "text": "doesn't.",
+   "startMs": 45637,
+   "endMs": 46220,
+   "emphasis": false
+  },
+  {
+   "text": "But",
+   "startMs": 46320,
+   "endMs": 46756,
+   "emphasis": false
+  },
+  {
+   "text": "it's",
+   "startMs": 46756,
+   "endMs": 47338,
+   "emphasis": false
+  },
+  {
+   "text": "all",
+   "startMs": 47338,
+   "endMs": 47774,
+   "emphasis": false
+  },
+  {
+   "text": "so",
+   "startMs": 47774,
+   "endMs": 48065,
+   "emphasis": false
+  },
+  {
+   "text": "nicely",
+   "startMs": 48065,
+   "endMs": 48938,
+   "emphasis": true
+  },
+  {
+   "text": "made.",
+   "startMs": 48938,
+   "endMs": 49520,
+   "emphasis": false
+  },
+  {
+   "text": "He's",
+   "startMs": 49520,
+   "endMs": 49736,
+   "emphasis": false
+  },
+  {
+   "text": "eating.",
+   "startMs": 49736,
+   "endMs": 50060,
+   "emphasis": false
+  },
+  {
+   "text": "And",
+   "startMs": 50160,
+   "endMs": 50529,
+   "emphasis": false
+  },
+  {
+   "text": "this",
+   "startMs": 50529,
+   "endMs": 51021,
+   "emphasis": false
+  },
+  {
+   "text": "one",
+   "startMs": 51021,
+   "endMs": 51390,
+   "emphasis": false
+  },
+  {
+   "text": "is",
+   "startMs": 51390,
+   "endMs": 51636,
+   "emphasis": false
+  },
+  {
+   "text": "your",
+   "startMs": 51636,
+   "endMs": 52128,
+   "emphasis": false
+  },
+  {
+   "text": "papaya",
+   "startMs": 52128,
+   "endMs": 52866,
+   "emphasis": true
+  },
+  {
+   "text": "salad.",
+   "startMs": 52866,
+   "endMs": 53480,
+   "emphasis": true
+  },
+  {
+   "text": "Really,",
+   "startMs": 53720,
+   "endMs": 54341,
+   "emphasis": false
+  },
+  {
+   "text": "really",
+   "startMs": 54341,
+   "endMs": 54962,
+   "emphasis": false
+  },
+  {
+   "text": "tasty.",
+   "startMs": 54962,
+   "endMs": 55480,
+   "emphasis": true
+  },
+  {
+   "text": "Such",
+   "startMs": 55520,
+   "endMs": 55694,
+   "emphasis": false
+  },
+  {
+   "text": "a",
+   "startMs": 55694,
+   "endMs": 55814,
+   "emphasis": false
+  },
+  {
+   "text": "bold",
+   "startMs": 55814,
+   "endMs": 55988,
+   "emphasis": false
+  },
+  {
+   "text": "mix",
+   "startMs": 55988,
+   "endMs": 56118,
+   "emphasis": false
+  },
+  {
+   "text": "of",
+   "startMs": 56118,
+   "endMs": 56238,
+   "emphasis": false
+  },
+  {
+   "text": "flavours.",
+   "startMs": 56238,
+   "endMs": 56520,
+   "emphasis": false
+  },
+  {
+   "text": "Really",
+   "startMs": 56520,
+   "endMs": 56953,
+   "emphasis": false
+  },
+  {
+   "text": "bold",
+   "startMs": 56953,
+   "endMs": 57242,
+   "emphasis": true
+  },
+  {
+   "text": "flavours.",
+   "startMs": 57242,
+   "endMs": 57820,
+   "emphasis": false
+  },
+  {
+   "text": "And",
+   "startMs": 57820,
+   "endMs": 58058,
+   "emphasis": false
+  },
+  {
+   "text": "our",
+   "startMs": 58058,
+   "endMs": 58296,
+   "emphasis": false
+  },
+  {
+   "text": "daughter,",
+   "startMs": 58296,
+   "endMs": 58931,
+   "emphasis": true
+  },
+  {
+   "text": "you",
+   "startMs": 58931,
+   "endMs": 59169,
+   "emphasis": false
+  },
+  {
+   "text": "know,",
+   "startMs": 59169,
+   "endMs": 59487,
+   "emphasis": false
+  },
+  {
+   "text": "the",
+   "startMs": 59487,
+   "endMs": 59725,
+   "emphasis": false
+  },
+  {
+   "text": "same",
+   "startMs": 59725,
+   "endMs": 60043,
+   "emphasis": false
+  },
+  {
+   "text": "dish.",
+   "startMs": 60043,
+   "endMs": 60360,
+   "emphasis": false
+  },
+  {
+   "text": "She's",
+   "startMs": 60560,
+   "endMs": 60850,
+   "emphasis": false
+  },
+  {
+   "text": "almost",
+   "startMs": 60850,
+   "endMs": 61199,
+   "emphasis": false
+  },
+  {
+   "text": "finished",
+   "startMs": 61199,
+   "endMs": 61664,
+   "emphasis": false
+  },
+  {
+   "text": "it.",
+   "startMs": 61664,
+   "endMs": 61784,
+   "emphasis": false
+  },
+  {
+   "text": "Almost",
+   "startMs": 61820,
+   "endMs": 62206,
+   "emphasis": false
+  },
+  {
+   "text": "finished.",
+   "startMs": 62206,
+   "endMs": 62720,
+   "emphasis": false
+  },
+  {
+   "text": "So",
+   "startMs": 62820,
+   "endMs": 62971,
+   "emphasis": false
+  },
+  {
+   "text": "how",
+   "startMs": 62971,
+   "endMs": 63197,
+   "emphasis": true
+  },
+  {
+   "text": "much",
+   "startMs": 63197,
+   "endMs": 63499,
+   "emphasis": true
+  },
+  {
+   "text": "did",
+   "startMs": 63499,
+   "endMs": 63725,
+   "emphasis": false
+  },
+  {
+   "text": "we",
+   "startMs": 63725,
+   "endMs": 63876,
+   "emphasis": false
+  },
+  {
+   "text": "actually",
+   "startMs": 63876,
+   "endMs": 64479,
+   "emphasis": false
+  },
+  {
+   "text": "spend",
+   "startMs": 64479,
+   "endMs": 64856,
+   "emphasis": false
+  },
+  {
+   "text": "here?",
+   "startMs": 64856,
+   "endMs": 65158,
+   "emphasis": false
+  },
+  {
+   "text": "Honestly?",
+   "startMs": 65158,
+   "endMs": 65760,
+   "emphasis": false
+  },
+  {
+   "text": "How",
+   "startMs": 66180,
+   "endMs": 66378,
+   "emphasis": false
+  },
+  {
+   "text": "much",
+   "startMs": 66378,
+   "endMs": 66642,
+   "emphasis": false
+  },
+  {
+   "text": "did",
+   "startMs": 66642,
+   "endMs": 66840,
+   "emphasis": false
+  },
+  {
+   "text": "we",
+   "startMs": 66840,
+   "endMs": 66972,
+   "emphasis": false
+  },
+  {
+   "text": "spend...",
+   "startMs": 66972,
+   "endMs": 67302,
+   "emphasis": false
+  },
+  {
+   "text": "I'm",
+   "startMs": 67302,
+   "endMs": 67500,
+   "emphasis": false
+  },
+  {
+   "text": "not",
+   "startMs": 67500,
+   "endMs": 67698,
+   "emphasis": false
+  },
+  {
+   "text": "sure,",
+   "startMs": 67698,
+   "endMs": 67960,
+   "emphasis": false
+  },
+  {
+   "text": "400",
+   "startMs": 68040,
+   "endMs": 68365,
+   "emphasis": true
+  },
+  {
+   "text": "baht",
+   "startMs": 68365,
+   "endMs": 68798,
+   "emphasis": true
+  },
+  {
+   "text": "maybe?",
+   "startMs": 68798,
+   "endMs": 69340,
+   "emphasis": false
+  },
+  {
+   "text": "400",
+   "startMs": 69560,
+   "endMs": 69920,
+   "emphasis": true
+  },
+  {
+   "text": "baht.",
+   "startMs": 69920,
+   "endMs": 70400,
+   "emphasis": true
+  },
+  {
+   "text": "So",
+   "startMs": 70540,
+   "endMs": 70682,
+   "emphasis": false
+  },
+  {
+   "text": "that's",
+   "startMs": 70682,
+   "endMs": 71107,
+   "emphasis": false
+  },
+  {
+   "text": "10",
+   "startMs": 71107,
+   "endMs": 71249,
+   "emphasis": true
+  },
+  {
+   "text": "euros,",
+   "startMs": 71249,
+   "endMs": 71603,
+   "emphasis": true
+  },
+  {
+   "text": "maybe",
+   "startMs": 71603,
+   "endMs": 71957,
+   "emphasis": false
+  },
+  {
+   "text": "12,",
+   "startMs": 71957,
+   "endMs": 72099,
+   "emphasis": false
+  },
+  {
+   "text": "something",
+   "startMs": 72099,
+   "endMs": 72736,
+   "emphasis": false
+  },
+  {
+   "text": "like",
+   "startMs": 72736,
+   "endMs": 73019,
+   "emphasis": false
+  },
+  {
+   "text": "that?",
+   "startMs": 73019,
+   "endMs": 73300,
+   "emphasis": false
+  },
+  {
+   "text": "12",
+   "startMs": 73420,
+   "endMs": 73628,
+   "emphasis": true
+  },
+  {
+   "text": "euros",
+   "startMs": 73628,
+   "endMs": 74148,
+   "emphasis": true
+  },
+  {
+   "text": "for",
+   "startMs": 74148,
+   "endMs": 74460,
+   "emphasis": false
+  },
+  {
+   "text": "four",
+   "startMs": 74460,
+   "endMs": 74876,
+   "emphasis": true
+  },
+  {
+   "text": "people,",
+   "startMs": 74876,
+   "endMs": 75500,
+   "emphasis": true
+  },
+  {
+   "text": "right?",
+   "startMs": 75500,
+   "endMs": 76020,
+   "emphasis": false
+  },
+  {
+   "text": "Well,",
+   "startMs": 76040,
+   "endMs": 76259,
+   "emphasis": false
+  },
+  {
+   "text": "breakfast,",
+   "startMs": 76259,
+   "endMs": 76753,
+   "emphasis": false
+  },
+  {
+   "text": "plus",
+   "startMs": 76753,
+   "endMs": 76972,
+   "emphasis": false
+  },
+  {
+   "text": "a",
+   "startMs": 76972,
+   "endMs": 77092,
+   "emphasis": false
+  },
+  {
+   "text": "couple",
+   "startMs": 77092,
+   "endMs": 77421,
+   "emphasis": false
+  },
+  {
+   "text": "of",
+   "startMs": 77421,
+   "endMs": 77541,
+   "emphasis": false
+  },
+  {
+   "text": "eggs.",
+   "startMs": 77541,
+   "endMs": 77740,
+   "emphasis": true
+  },
+  {
+   "text": "400",
+   "startMs": 77840,
+   "endMs": 78011,
+   "emphasis": true
+  },
+  {
+   "text": "baht?",
+   "startMs": 78011,
+   "endMs": 78240,
+   "emphasis": true
+  },
+  {
+   "text": "Well,",
+   "startMs": 78240,
+   "endMs": 78732,
+   "emphasis": false
+  },
+  {
+   "text": "correct",
+   "startMs": 78732,
+   "endMs": 79594,
+   "emphasis": false
+  },
+  {
+   "text": "me.",
+   "startMs": 79594,
+   "endMs": 79840,
+   "emphasis": false
+  },
+  {
+   "text": "Great,",
+   "startMs": 79980,
+   "endMs": 80457,
+   "emphasis": false
+  },
+  {
+   "text": "really",
+   "startMs": 80457,
+   "endMs": 81030,
+   "emphasis": false
+  },
+  {
+   "text": "good,",
+   "startMs": 81030,
+   "endMs": 81412,
+   "emphasis": false
+  },
+  {
+   "text": "so",
+   "startMs": 81412,
+   "endMs": 81603,
+   "emphasis": false
+  },
+  {
+   "text": "tasty.",
+   "startMs": 81603,
+   "endMs": 82080,
+   "emphasis": true
+  },
+  {
+   "text": "Thank",
+   "startMs": 82100,
+   "endMs": 82325,
+   "emphasis": true
+  },
+  {
+   "text": "you!",
+   "startMs": 82325,
+   "endMs": 82460,
+   "emphasis": true
+  }
+ ],
+ "zooms": [
+  {
+   "atMs": 1280,
+   "durationMs": 1500,
+   "scale": 1.15,
+   "style": "snap",
+   "focus": [
+    0.72,
+    0.32
+   ]
+  },
+  {
+   "atMs": 3500,
+   "durationMs": 1900,
+   "scale": 1.08,
+   "style": "push",
+   "focus": [
+    0.62,
+    0.4
+   ]
+  },
+  {
+   "atMs": 14580,
+   "durationMs": 1500,
+   "scale": 1.12,
+   "style": "snap",
+   "focus": [
+    0.72,
+    0.42
+   ]
+  },
+  {
+   "atMs": 19350,
+   "durationMs": 2900,
+   "scale": 1.08,
+   "style": "push",
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  {
+   "atMs": 23780,
+   "durationMs": 1300,
+   "scale": 1.12,
+   "style": "snap",
+   "focus": [
+    0.62,
+    0.38
+   ]
+  },
+  {
+   "atMs": 27500,
+   "durationMs": 2400,
+   "scale": 1.1,
+   "style": "push",
+   "focus": [
+    0.66,
+    0.38
+   ]
+  },
+  {
+   "atMs": 31640,
+   "durationMs": 1300,
+   "scale": 1.1,
+   "style": "snap",
+   "focus": [
+    0.64,
+    0.4
+   ]
+  },
+  {
+   "atMs": 33680,
+   "durationMs": 1300,
+   "scale": 1.12,
+   "style": "snap",
+   "focus": [
+    0.66,
+    0.38
+   ]
+  },
+  {
+   "atMs": 35480,
+   "durationMs": 2000,
+   "scale": 1.1,
+   "style": "push",
+   "focus": [
+    0.64,
+    0.4
+   ]
+  },
+  {
+   "atMs": 41920,
+   "durationMs": 3000,
+   "scale": 1.08,
+   "style": "push",
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "atMs": 51400,
+   "durationMs": 2700,
+   "scale": 1.08,
+   "style": "push",
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  {
+   "atMs": 58500,
+   "durationMs": 1300,
+   "scale": 1.1,
+   "style": "snap",
+   "focus": [
+    0.62,
+    0.36
+   ]
+  },
+  {
+   "atMs": 62980,
+   "durationMs": 1300,
+   "scale": 1.12,
+   "style": "snap",
+   "focus": [
+    0.66,
+    0.36
+   ]
+  },
+  {
+   "atMs": 68040,
+   "durationMs": 1500,
+   "scale": 1.15,
+   "style": "snap",
+   "focus": [
+    0.66,
+    0.36
+   ]
+  },
+  {
+   "atMs": 71160,
+   "durationMs": 1800,
+   "scale": 1.1,
+   "style": "push",
+   "focus": [
+    0.64,
+    0.38
+   ]
+  },
+  {
+   "atMs": 73420,
+   "durationMs": 1400,
+   "scale": 1.15,
+   "style": "snap",
+   "focus": [
+    0.66,
+    0.36
+   ]
+  },
+  {
+   "atMs": 80240,
+   "durationMs": 1400,
+   "scale": 1.1,
+   "style": "snap",
+   "focus": [
+    0.64,
+    0.38
+   ]
+  },
+  {
+   "atMs": 82100,
+   "durationMs": 600,
+   "scale": 1.12,
+   "style": "snap",
+   "focus": [
+    0.64,
+    0.38
+   ]
+  }
+ ],
+ "graphics": [
+  {
+   "type": "hookTitle",
+   "startMs": 100,
+   "endMs": 1620,
+   "text": "Breakfast for 4",
+   "highlight": "400 baht"
+  },
+  {
+   "type": "postcardTitle",
+   "startMs": 1650,
+   "endMs": 5850,
+   "title": "Koh Tao",
+   "place": "Tao Thong Villa 2",
+   "country": "THAILAND",
+   "flag": "TH"
+  },
+  {
+   "type": "weatherBadge",
+   "startMs": 2300,
+   "endMs": 5850,
+   "date": "October 7",
+   "tempC": 30,
+   "icon": "sun"
+  },
+  {
+   "type": "mapZoom",
+   "startMs": 5850,
+   "endMs": 9250,
+   "lat": 10.06935,
+   "lon": 99.81694,
+   "label": "Tao Thong Villa 2",
+   "region": "Koh Tao",
+   "stages": [
+    {
+     "src": "map/z7.jpg",
+     "zoom": 7
+    },
+    {
+     "src": "map/z9.jpg",
+     "zoom": 9
+    },
+    {
+     "src": "map/z10.jpg",
+     "zoom": 10
+    },
+    {
+     "src": "map/z12.jpg",
+     "zoom": 12
+    },
+    {
+     "src": "map/z13.jpg",
+     "zoom": 13
+    },
+    {
+     "src": "map/z15.jpg",
+     "zoom": 15
+    },
+    {
+     "src": "map/z16.jpg",
+     "zoom": 16
+    }
+   ],
+   "attribution": "© OpenStreetMap contributors"
+  },
+  {
+   "type": "callout",
+   "startMs": 9500,
+   "endMs": 11750,
+   "text": "Tao Thong Villa 2 · Room 1",
+   "anchor": "topLeft"
+  },
+  {
+   "type": "sideNotes",
+   "startMs": 12050,
+   "endMs": 17550,
+   "side": "left",
+   "notes": [
+    "Turquoise Water",
+    "Island View",
+    "Fresh Fruit Bowls",
+    "Breakfast by the Sea"
+   ]
+  },
+  {
+   "type": "callout",
+   "startMs": 18600,
+   "endMs": 22050,
+   "text": "Day 3 of the Same Bowl",
+   "anchor": "topLeft"
+  },
+  {
+   "type": "subscribe",
+   "startMs": 23000,
+   "endMs": 27000,
+   "handle": "@indre.Grazuliene"
+  },
+  {
+   "type": "callout",
+   "startMs": 27500,
+   "endMs": 31050,
+   "text": "Dragon Fruit · Banana · Granola",
+   "anchor": "topLeft"
+  },
+  {
+   "type": "battery",
+   "startMs": 35300,
+   "endMs": 39750,
+   "label": "BREAKFAST CHARGE",
+   "done": "happy · not stuffed"
+  },
+  {
+   "type": "heroShine",
+   "startMs": 41700,
+   "endMs": 44650,
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "radius": 360
+  },
+  {
+   "type": "callout",
+   "startMs": 42250,
+   "endMs": 45150,
+   "text": "Son's Chicken Sandwich",
+   "anchor": "topLeft"
+  },
+  {
+   "type": "note",
+   "startMs": 45400,
+   "endMs": 48650,
+   "text": "Sauce? Never.",
+   "by": "— every kid ever"
+  },
+  {
+   "type": "callout",
+   "startMs": 51450,
+   "endMs": 53950,
+   "text": "Papaya Salad",
+   "anchor": "topLeft"
+  },
+  {
+   "type": "gauge",
+   "startMs": 54250,
+   "endMs": 57950,
+   "title": "Taste-o-meter",
+   "low": "meh",
+   "high": "WOW"
+  },
+  {
+   "type": "badge",
+   "startMs": 59900,
+   "endMs": 61700,
+   "title": "Clean Plate Club",
+   "subtitle": "our daughter"
+  },
+  {
+   "type": "stamp",
+   "startMs": 78270,
+   "endMs": 80550,
+   "text": "FACT-CHECKED"
+  },
+  {
+   "type": "hearts",
+   "startMs": 82100,
+   "endMs": 83900
+  },
+  {
+   "type": "priceTag",
+   "startMs": 68040,
+   "endMs": 79750,
+   "lines": [
+    {
+     "atMs": 68040,
+     "text": "400 baht",
+     "style": "big"
+    },
+    {
+     "atMs": 75950,
+     "text": "Real rate on 7 Oct:",
+     "style": "note"
+    },
+    {
+     "atMs": 76100,
+     "text": "about €10.62 for 4",
+     "style": "pill"
+    },
+    {
+     "atMs": 77050,
+     "text": "about €2.66 each",
+     "style": "pill"
+    }
+   ]
+  }
+ ],
+ "broll": [],
+ "sfx": [
+  {
+   "src": "sfx/whoosh.wav",
+   "atMs": 100,
+   "gainDb": -16,
+   "attackMs": 0
+  },
+  {
+   "src": "sfx/swish.wav",
+   "atMs": 2050,
+   "gainDb": -20,
+   "attackMs": 60
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "atMs": 5850,
+   "gainDb": -16,
+   "attackMs": 120
+  },
+  {
+   "src": "sfx/pop.wav",
+   "atMs": 8050,
+   "gainDb": -15,
+   "attackMs": 20
+  },
+  {
+   "src": "sfx/charge.wav",
+   "atMs": 35570,
+   "gainDb": -18,
+   "attackMs": 0
+  },
+  {
+   "src": "sfx/pop.wav",
+   "atMs": 9600,
+   "gainDb": -18,
+   "attackMs": 20
+  },
+  {
+   "src": "sfx/pop.wav",
+   "atMs": 18700,
+   "gainDb": -18,
+   "attackMs": 20
+  },
+  {
+   "src": "sfx/click.wav",
+   "atMs": 24000,
+   "gainDb": -14,
+   "attackMs": 10
+  },
+  {
+   "src": "sfx/bell.wav",
+   "atMs": 25600,
+   "gainDb": -15,
+   "attackMs": 10
+  },
+  {
+   "src": "sfx/shine.wav",
+   "atMs": 41700,
+   "gainDb": -15,
+   "attackMs": 80
+  },
+  {
+   "src": "sfx/pop.wav",
+   "atMs": 45460,
+   "gainDb": -18,
+   "attackMs": 20
+  },
+  {
+   "src": "sfx/pop.wav",
+   "atMs": 51550,
+   "gainDb": -18,
+   "attackMs": 20
+  },
+  {
+   "src": "sfx/swish.wav",
+   "atMs": 54580,
+   "gainDb": -18,
+   "attackMs": 60
+  },
+  {
+   "src": "sfx/bell.wav",
+   "atMs": 60000,
+   "gainDb": -18,
+   "attackMs": 10
+  },
+  {
+   "src": "sfx/kaching.wav",
+   "atMs": 68140,
+   "gainDb": -16,
+   "attackMs": 30
+  },
+  {
+   "src": "sfx/pop.wav",
+   "atMs": 76200,
+   "gainDb": -17,
+   "attackMs": 20
+  },
+  {
+   "src": "sfx/stamp.wav",
+   "atMs": 78400,
+   "gainDb": -14,
+   "attackMs": 10
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "atMs": 82700,
+   "gainDb": -16,
+   "attackMs": 120
+  }
+ ],
+ "music": {
+  "src": "music/life-of-riley.mp3",
+  "gainDb": -5.6,
+  "duckDb": -12,
+  "fadeOutMs": 1800,
+  "credit": "\"Life of Riley\" Kevin MacLeod (incompetech.com), CC BY 4.0"
+ },
+ "watermark": {
+  "handle": "@indre.Grazuliene"
+ },
+ "cover": {
+  "frameMs": 14650,
+  "introFrames": 3
+ },
+ "endCard": {
+  "startMs": 82700,
+  "handle": "@indre.Grazuliene",
+  "text": "for more Koh Tao",
+  "holdMs": 1800,
+  "focus": [
+   0.82,
+   0.36
+  ]
+ }
+}

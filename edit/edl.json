@@ -1,0 +1,5 @@
+{
+  "source": "raw/source.mp4",
+  "note": "Owner asked for the full video, no skipping: one segment, silent head and tail trimmed. HDR HLG tone-mapped to SDR BT.709 (hable), light grade eq sat 1.12 contrast 1.04 gamma 1.02, 29.97 -> 30 fps.",
+  "segments": [ { "sourceStart": 0.35, "sourceEnd": 83.0, "outputStart": 0.0 } ]
+}

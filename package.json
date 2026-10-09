@@ -1,0 +1,26 @@
+{
+  "name": "video-edit",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "check": "tsc && python3 scripts/check_timeline.py && python3 scripts/check_caption_sync.py",
+    "preview": "remotion render Short out/preview-1080.mp4 --crf=20 && python3 scripts/master.py out/preview-1080.mp4 out/preview-1080-mastered.mp4 && python3 scripts/qc_render.py out/preview-1080-mastered.mp4",
+    "thumb": "remotion still ShortThumb out/thumb-short-1.jpg",
+    "timeline": "python3 scripts/build_timeline.py",
+    "qc": "python3 scripts/qc_render.py",
+    "final": "scripts/finalize.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/media-utils": "4.0.534",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "4.0.534",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "typescript": "^5.6.3"
+  }
+}
