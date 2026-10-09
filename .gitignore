@@ -13,3 +13,4 @@ public/broll/
 public/music/
 public/sfx/*.wav
 public/map/*.jpg
+__pycache__/
